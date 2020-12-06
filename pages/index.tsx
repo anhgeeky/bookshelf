@@ -1,10 +1,30 @@
-import styled from 'styled-components'
+import { useEffect, useState } from "react"
+import styled from "styled-components"
 
-const Title = styled.h1`
-  color: red;
-  font-size: 50px;
+const Body = styled.div`
+	font-size: 22px;
+	min-height: 100vh;
 `
 
-export default function Home() {
-  return <Title>My page</Title>
+const Home = () => {
+	const [goodreads, setGoodreads] = useState({ null: "true" })
+
+	useEffect(() => {
+		;(async function getTweets() {
+			await fetch("/api/get-goodreads", {
+				method: "GET",
+				headers: { "Content-Type": "application/json" }
+			})
+				.then((res: any) => res.json())
+				.then((json: any) => setGoodreads(json))
+				.catch((error: any) => console.log(error))
+		})()
+	}, [])
+	return (
+		<Body>
+			<pre>{goodreads && JSON.stringify(goodreads, null, 2)}</pre>
+		</Body>
+	)
 }
+
+export default Home
