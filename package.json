@@ -8,10 +8,12 @@
   },
   "dependencies": {
     "@11ty/eleventy-cache-assets": "^2.0.3",
+    "bookcovers": "^0.0.2",
     "goodreads-api-node": "^0.0.12",
     "next": "latest",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
+    "react-intersection-observer": "^8.31.0",
     "styled-components": "^5.0.0",
     "xml2js": "^0.4.23"
   },
