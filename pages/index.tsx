@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
-import styled, { keyframes, createGlobalStyle } from "styled-components"
+import styled, { keyframes, createGlobalStyle, css } from "styled-components"
 import { useInView } from "react-intersection-observer"
+import { v4 as uuidv4 } from "uuid"
 
 const GlobalStyle = createGlobalStyle`
 #container {
@@ -17,7 +18,6 @@ const GlobalStyle = createGlobalStyle`
 	overflow: hidden;
 	white-space: nowrap;
 	animation: bannermove 100s linear infinite;
-	background: red;
 }
 
 
@@ -39,13 +39,30 @@ const Body = styled.div`
 
 const Book = styled.div`
 	background: green;
-	/* width: 50px; */
-	height: 500px;
+	height: 250px;
 	margin: 0 0.5em;
+
+	display: flex;
+
+	img {
+		max-height: 148px;
+		width: 100px;
+		object-fit: cover;
+	}
+
+	${props =>
+		props.trigger &&
+		css`
+			background: purple;
+		`}
 `
 
 const Home = () => {
 	const [goodreads, setGoodreads] = useState<any>([])
+	const [original, setOriginal] = useState<any>([])
+
+	const [originalLength, setOriginalLength] = useState<number>(10)
+
 	const { ref, inView, entry } = useInView({
 		/* Optional options */
 		threshold: 0
@@ -58,27 +75,55 @@ const Home = () => {
 				headers: { "Content-Type": "application/json" }
 			})
 				.then((res: any) => res.json())
-				.then((json: any) =>
-					setGoodreads([...json.books.slice(json.books.length - 5, json.books.length), ...json.books])
-				)
+				.then((json: any) => {
+					const booksWithids = json.books.map((book: any) => {
+						return {
+							id: uuidv4(),
+							...book
+						}
+					})
+
+					setGoodreads(booksWithids)
+					setOriginal(booksWithids)
+					setOriginalLength(booksWithids.length)
+				})
 				.catch((error: any) => console.log(error))
 		})()
 	}, [])
 
+	useEffect(() => {
+		if (inView) {
+			const newBooks = original.map((book: any) => {
+				return {
+					...book,
+					id: uuidv4()
+				}
+			})
+
+			if (goodreads.length >= originalLength * 3) {
+				const newGoodReads = goodreads.slice(0, originalLength * 2)
+				setGoodreads([...newGoodReads])
+			}
+
+			setGoodreads((goodreads: any) => [...goodreads, ...newBooks])
+		}
+	}, [inView])
+
 	return (
 		<Body>
-			{/* {inView ? "yes" : "no"} */}
+			{inView ? "yes" : "no"}
 			<GlobalStyle />
 			<div id="container">
 				<div className="photobanner">
 					{goodreads?.map((book: any, index: number) => {
 						// const googleSearch = getGoogleSearch(book.)
 						return (
-							<Book key={`${book.title}-${index}`} ref={index === 2 ? ref : null}>
-								{book.title}
-								<img src={``} />
+							<Book
+								key={book.id}
+								ref={index + 1 === originalLength ? ref : null}
+								trigger={index + 1 === originalLength}>
+								{/* {book.title} */}
 								<img src={book.image_url} alt={book.title} />
-								<div>{JSON.stringify(book.isbn)}</div>
 								{/* {console.log(book)} */}
 								{/* {book.title}
 							{book.spinal_title}
