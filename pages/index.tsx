@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import { useCallback, useEffect, useRef, useState } from "react"
 import styled, { keyframes, css } from "styled-components"
 import { useInView } from "react-intersection-observer"
 import { v4 as uuidv4 } from "uuid"
@@ -45,6 +45,7 @@ const Book = styled.div<IBook>`
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
 	height: 250px;
 	margin: 0 0.5em;
 
@@ -106,6 +107,7 @@ const Home = () => {
 	const [original, setOriginal] = useState<any>([])
 	const [openBook, setOpenBook] = useState<any>([])
 	const [modalOpen, setModalOpen] = useState<boolean>(false)
+	const [calls, setCalls] = useState<number>(0)
 
 	const [originalLength, setOriginalLength] = useState<number>(10)
 
@@ -139,6 +141,7 @@ const Home = () => {
 					setGoodreads([...booksWithids, ...dupBooks])
 					setOriginal(booksWithids)
 					setOriginalLength(booksWithids.length)
+					setCalls(1)
 				})
 				.catch((error: any) => console.log(error))
 		})()
@@ -152,9 +155,10 @@ const Home = () => {
 					id: uuidv4()
 				}
 			})
+			setCalls(calls => calls + 1)
 
 			if (goodreads.length >= originalLength * 3) {
-				const newGoodReads = goodreads.slice(0, originalLength * 2)
+				const newGoodReads = goodreads.slice(0, originalLength * 3)
 				setGoodreads([...newGoodReads])
 			}
 
@@ -185,13 +189,14 @@ const Home = () => {
 				<Container>
 					<Banner>
 						{goodreads?.map((book: any, index: number) => {
+							let trigger = index + 1 === (originalLength - 5) * calls
 							return (
-								<Book
-									key={book.id}
-									ref={index + 1 === originalLength ? ref : null}
-									trigger={index + 1 === originalLength}
-									onClick={() => openModal(book)}>
+								<Book key={book.id} ref={trigger ? ref : null} trigger={trigger} onClick={() => openModal(book)}>
 									{/* {book.title} */}
+									<div>{calls} - calls</div>
+									<div>{index + 1} - index + one</div>
+									<div>{(originalLength - 5) * calls} - trigger num</div>
+									{trigger ? "TRIGGER" : "no"}
 									<img src={book.image_url} alt={book.title} />
 									{/* {console.log(book)} */}
 									{/* {book.title}
