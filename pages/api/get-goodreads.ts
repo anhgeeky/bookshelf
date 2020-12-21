@@ -2,6 +2,16 @@ import { NextApiRequest, NextApiResponse } from "next"
 const xml2js = require("xml2js")
 const Cache = require("@11ty/eleventy-cache-assets")
 
+export const slugGenerator = (id: string): string => {
+	const array = id.split("-")
+
+	if (array.length > 1) {
+		return array.slice(1).join("-")
+	} else {
+		return array[0]
+	}
+}
+
 export default async (req: NextApiRequest, res: NextApiResponse) => {
 	if (req.method === "GET") {
 		const myCredentials = {
@@ -38,7 +48,10 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
 							date_started: bookList[i].date_added[0],
 							date_finished: bookList[i].read_at[0],
 							date_updated: bookList[i].date_updated[0],
-							rating: bookList[i].rating[0]
+							rating: bookList[i].rating[0],
+							imageName: `${spinalCase(bookList[i].book[0].title[0])}-${spinalCase(
+								bookList[i].book[0].authors[0].author[0].name[0]
+							)}`
 						})
 					}
 				})
@@ -74,7 +87,10 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
 							date_started: bookList[i].date_added[0],
 							date_finished: bookList[i].read_at[0],
 							date_updated: bookList[i].date_updated[0],
-							rating: bookList[i].rating[0]
+							rating: bookList[i].rating[0],
+							imageName: `${spinalCase(bookList[i].book[0].title[0])}-${spinalCase(
+								bookList[i].book[0].authors[0].author[0].name[0]
+							)}`
 						})
 					}
 				})
@@ -97,5 +113,6 @@ function spinalCase(str: string) {
 	return str
 		.split(/\s|_|(?=[A-Z])/)
 		.join("-")
+		.replace(/,/g, "")
 		.toLowerCase()
 }

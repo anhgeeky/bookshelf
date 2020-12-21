@@ -57,44 +57,6 @@ const Modal = styled.div`
 	animation-fill-mode: forwards;
 `
 
-const imageSearch = async (isbn: string, bookTitle: string) => {
-	console.log(isbn)
-	const google = await fetch(`https://www.googleapis.com/books/v1/volumes?q=isbn:${isbn}`).then(res => res.json())
-
-	// const openCover = await fetch(`http://covers.openlibrary.org/b/isbn/${isbn}-M.jpg`, {
-	// 	mode: "no-cors"
-	// })
-
-	// const googleTest = await fetch(
-	// 	`https://contextualwebsearch-websearch-v1.p.rapidapi.com/api/Search/ImageSearchAPI?q=${bookTitle}&pageNumber=1&pageSize=10&autoCorrect=true`,
-	// 	{
-	// 		method: "GET",
-	// 		headers: {
-	// 			"x-rapidapi-key": "e22b6784f1msh53e706acf063885p105578jsna5522605c857",
-	// 			"x-rapidapi-host": "contextualwebsearch-websearch-v1.p.rapidapi.com"
-	// 		}
-	// 	}
-	// )
-	// 	.then(response => {
-	// 		console.log(response)
-	// 	})
-	// 	.catch(err => {
-	// 		console.error(err)
-	// 	})
-
-	// console.log(google)
-	if (google?.items && google.items[0]?.volumeInfo?.imageLinks?.thumbnail) {
-		return google.items[0].volumeInfo?.imageLinks?.thumbnail
-	}
-
-	// if (openCover) {
-	// 	console.log("open")
-	// 	return openCover
-	// }
-
-	return `none ${isbn}`
-}
-
 const Home = () => {
 	const [goodreads, setGoodreads] = useState<any>([])
 	const [openBook, setOpenBook] = useState<any>([])
@@ -103,8 +65,6 @@ const Home = () => {
 
 	useEffect(() => {
 		;(async function getTweets() {
-			// const test = await imageSearch("152933182X")
-
 			await fetch("/api/get-goodreads", {
 				method: "GET",
 				headers: { "Content-Type": "application/json" }
@@ -114,31 +74,18 @@ const Home = () => {
 					const booksWithids = async () => {
 						return Promise.all(
 							json.books.map(async (book: any, index: number) => {
-								if (book.image_url.includes("nophoto")) {
-									// console.log("replace me")
-									const image = await imageSearch(book.isbn)
-									// console.log(image, "image!!!")
-									return {
-										...book,
-										id: uuidv4(),
-										origIndex: index,
-										sizeFactor: Math.floor(Math.random() * 10) + 10,
-										image_url: book.image_url.includes("nophoto") ? image : book.image_url
-									}
-								} else {
-									return {
-										...book,
-										id: uuidv4(),
-										origIndex: index,
-										sizeFactor: Math.floor(Math.random() * 10) + 10
-									}
+								return {
+									...book,
+									id: uuidv4(),
+									origIndex: index,
+									sizeFactor: Math.floor(Math.random() * 15) + 10,
+									image_url: `/books/${book.imageName}.jpg`
 								}
 							})
 						)
 					}
 
 					booksWithids().then(data => {
-						console.log(data)
 						setGoodreads(data)
 					})
 				})
