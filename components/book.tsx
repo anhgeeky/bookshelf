@@ -1,27 +1,14 @@
 import { useEffect, useRef, useState } from "react"
-import styled, { css, keyframes } from "styled-components"
-
+import styled, { css } from "styled-components"
+import { Fade } from "react-awesome-reveal"
 import Image from "next/image"
 
-import { Fade } from "react-awesome-reveal"
+import { IBookRes } from "../types/book"
 
+import { resizeGridItem } from "../utils/resizeGridItem"
 interface IBookEl {
 	sizeFactor: number
 }
-
-// const float = keyframes`
-// 	0% {
-// 		transform: translateY(0px);
-// 	}
-
-// 	50% {
-// 		transform: translateY(30px);
-// 	}
-
-// 	100% {
-// 		transform: translateY(0px);
-// 	}
-// `
 
 const BookEl = styled.div<IBookEl>`
 	height: 148px;
@@ -39,53 +26,46 @@ const BookEl = styled.div<IBookEl>`
 	${(props: { sizeFactor: number }) =>
 		props.sizeFactor &&
 		css`
-			height: ${14.8 * props.sizeFactor + "px"};
+			height: ${14.8 * 20 + "px"};
 
 			img {
-				height: ${14.8 * props.sizeFactor + "px"};
-				width: ${10 * props.sizeFactor + "px"};
+				height: ${14.8 * 20 + "px"};
+				width: ${10 * 20 + "px"};
 			}
 		`}
+
+	@media (min-width: 500px) {
+		${(props: { sizeFactor: number }) =>
+			props.sizeFactor &&
+			css`
+				height: ${14.8 * props.sizeFactor + "px"};
+
+				img {
+					height: ${14.8 * props.sizeFactor + "px"};
+					width: ${10 * props.sizeFactor + "px"};
+				}
+			`}
+	}
 `
 
 interface IBook {
-	book: any
-	openModal: any
-	resizeGridItem: any
+	book: IBookRes
+	gridRef?: any
 }
 
-const Book: React.FC<IBook> = ({ book, openModal, resizeGridItem }) => {
+const Book: React.FC<IBook> = ({ book, gridRef }) => {
 	const newRef = useRef(null)
-	const [span, setSpan] = useState("")
+	const [span, setSpan] = useState<string>("")
 
 	useEffect(() => {
-		setSpan(resizeGridItem(newRef.current))
+		setSpan(resizeGridItem(newRef.current, gridRef.current))
 	}, [newRef])
 
 	return (
 		<Fade delay={700} triggerOnce cascade style={{ gridRowEnd: span }}>
 			<a href={book.link} target="_blank">
 				<BookEl sizeFactor={book.sizeFactor} ref={newRef}>
-					{/* {book.title} */}
-					{/* <div>{index + 1} - index + one</div> */}
-					{/* {JSON.stringify(book.isbn)} */}
-
-					{/* <img src={book.image_url} alt={book.title} /> */}
-
 					<Image src={book.image_url} alt={book.title} width={14.8 * book.sizeFactor} height={10 * book.sizeFactor} />
-					{/* {console.log(book)} */}
-					{/* {book.title}
-							{book.spinal_title}
-							{book.author}
-							{book.isbn}
-							{book.image_url}
-							{book.small_image_url}
-							{book.large_image_url}
-							{book.link}
-							{book.date_started}
-							{book.date_finished}
-							{book.date_updated}
-							{book.rating} */}
 				</BookEl>
 			</a>
 		</Fade>
