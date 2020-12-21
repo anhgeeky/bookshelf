@@ -1,49 +1,21 @@
-import { useEffect, useState } from "react"
+import React, { useEffect, useRef, useState } from "react"
 import styled, { css } from "styled-components"
 import { v4 as uuidv4 } from "uuid"
 
-const Container = styled.div`
-	/* position: relative;
-	width: 100%;
-	height: 100%;
-	display: flex;
-	align-items: flex-start;
-	justify-content: flex-start; */
-	background: red;
+import Book from "../components/book"
+
+const Grid = styled.div`
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+	grid-auto-rows: 20px;
 	padding: 10px;
-	display: flex;
-	flex-wrap: wrap;
-	align-items: flex-start;
-	justify-content: flex-start;
+	width: 100%;
 `
 
 const Body = styled.div`
 	font-size: 22px;
-
 	display: flex;
-`
-
-interface IBook {
-	trigger?: boolean
-}
-
-const Book = styled.div<IBook>`
-	height: 148px;
-	width: 100px;
-	cursor: pointer;
-
-	img {
-		height: 148px;
-		width: 100px;
-		object-fit: cover;
-		/* box-shadow: 0px 14px 44px rgba(62, 68, 98, 0.2); */
-	}
-
-	${props =>
-		props.trigger &&
-		css`
-			background: purple;
-		`}
 `
 
 interface IBackground {
@@ -85,16 +57,11 @@ const Modal = styled.div`
 	animation-fill-mode: forwards;
 `
 
-const Test = styled.div`
-	background: pink;
-	padding: 10px;
-	width: 100%;
-`
-
 const Home = () => {
 	const [goodreads, setGoodreads] = useState<any>([])
 	const [openBook, setOpenBook] = useState<any>([])
 	const [modalOpen, setModalOpen] = useState<boolean>(false)
+	const [allRefs, setAllRefs] = useState<any>([])
 
 	useEffect(() => {
 		;(async function getTweets() {
@@ -108,6 +75,7 @@ const Home = () => {
 						return {
 							id: uuidv4(),
 							origIndex: index,
+							sizeFactor: Math.floor(Math.random() * 10) + 10,
 							...book
 						}
 					})
@@ -118,10 +86,28 @@ const Home = () => {
 		})()
 	}, [])
 
+	const handleRefs = (ref: any) => {
+		console.log(allRefs)
+		setAllRefs((allRefs: any) => [...allRefs, ref])
+	}
+
 	const openModal = (book: any) => {
 		console.log(book)
 		setOpenBook(book)
 		setModalOpen(!modalOpen)
+	}
+
+	const gridRef = useRef(null)
+
+	function resizeGridItem(item: any) {
+		let grid = gridRef.current
+		if (grid) {
+			let rowHeight = parseInt(window.getComputedStyle(grid).getPropertyValue("grid-auto-rows"))
+			let rowGap = parseInt(window.getComputedStyle(grid).getPropertyValue("grid-row-gap"))
+			let rowSpan = Math.ceil((item?.getBoundingClientRect().height + rowGap) / (rowHeight + rowGap))
+
+			return `span ${rowSpan}`
+		}
 	}
 
 	return (
@@ -136,32 +122,20 @@ const Home = () => {
 					</h1>
 				</Modal>
 			</Background>
-			<Test>
-				<Container>
-					{goodreads?.map((book: any) => {
-						return (
-							<Book key={book.id} onClick={() => openModal(book)}>
-								{/* {book.title} */}
-								{/* <div>{index + 1} - index + one</div> */}
-								<img src={book.image_url} alt={book.title} />
-								{/* {console.log(book)} */}
-								{/* {book.title}
-							{book.spinal_title}
-							{book.author}
-							{book.isbn}
-							{book.image_url}
-							{book.small_image_url}
-							{book.large_image_url}
-							{book.link}
-							{book.date_started}
-							{book.date_finished}
-							{book.date_updated}
-							{book.rating} */}
-							</Book>
-						)
-					})}
-				</Container>
-			</Test>
+
+			<Grid ref={gridRef}>
+				{goodreads?.map((book: any) => {
+					return (
+						<Book
+							key={book.id}
+							book={book}
+							openModal={() => openModal(book)}
+							handleRefs={(ref: any) => handleRefs(ref)}
+							resizeGridItem={resizeGridItem}
+						/>
+					)
+				})}
+			</Grid>
 		</Body>
 	)
 }
