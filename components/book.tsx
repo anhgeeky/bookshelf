@@ -1,11 +1,27 @@
 import { useEffect, useRef, useState } from "react"
-import styled, { css } from "styled-components"
+import styled, { css, keyframes } from "styled-components"
 
 import Image from "next/image"
+
+import { Fade } from "react-awesome-reveal"
 
 interface IBookEl {
 	sizeFactor: number
 }
+
+// const float = keyframes`
+// 	0% {
+// 		transform: translateY(0px);
+// 	}
+
+// 	50% {
+// 		transform: translateY(30px);
+// 	}
+
+// 	100% {
+// 		transform: translateY(0px);
+// 	}
+// `
 
 const BookEl = styled.div<IBookEl>`
 	height: 148px;
@@ -14,14 +30,13 @@ const BookEl = styled.div<IBookEl>`
 	justify-content: center;
 	align-items: center;
 
-	img {
-		height: 148px;
+	> div {
 		object-fit: cover;
 		cursor: pointer;
 		box-shadow: 0px 14px 44px rgba(62, 68, 98, 0.2);
 	}
 
-	${props =>
+	${(props: { sizeFactor: number }) =>
 		props.sizeFactor &&
 		css`
 			height: ${14.8 * props.sizeFactor + "px"};
@@ -36,30 +51,30 @@ const BookEl = styled.div<IBookEl>`
 interface IBook {
 	book: any
 	openModal: any
-	handleRefs: any
 	resizeGridItem: any
 }
 
-const Book: React.FC<IBook> = ({ book, openModal, handleRefs, resizeGridItem }) => {
+const Book: React.FC<IBook> = ({ book, openModal, resizeGridItem }) => {
 	const newRef = useRef(null)
 	const [span, setSpan] = useState("")
 
 	useEffect(() => {
-		handleRefs(newRef.current)
 		setSpan(resizeGridItem(newRef.current))
 	}, [newRef])
 
 	return (
-		<BookEl style={{ gridRowEnd: span }} onClick={() => openModal(book)} sizeFactor={book.sizeFactor} ref={newRef}>
-			{/* {book.title} */}
-			{/* <div>{index + 1} - index + one</div> */}
-			{/* {JSON.stringify(book.isbn)} */}
+		<Fade delay={700} triggerOnce cascade style={{ gridRowEnd: span }}>
+			<a href={book.link} target="_blank">
+				<BookEl sizeFactor={book.sizeFactor} ref={newRef}>
+					{/* {book.title} */}
+					{/* <div>{index + 1} - index + one</div> */}
+					{/* {JSON.stringify(book.isbn)} */}
 
-			{/* <img src={book.image_url} alt={book.title} /> */}
+					{/* <img src={book.image_url} alt={book.title} /> */}
 
-			<Image src={book.image_url} alt={book.title} width={14.8 * book.sizeFactor} height={10 * book.sizeFactor} />
-			{/* {console.log(book)} */}
-			{/* {book.title}
+					<Image src={book.image_url} alt={book.title} width={14.8 * book.sizeFactor} height={10 * book.sizeFactor} />
+					{/* {console.log(book)} */}
+					{/* {book.title}
 							{book.spinal_title}
 							{book.author}
 							{book.isbn}
@@ -71,7 +86,9 @@ const Book: React.FC<IBook> = ({ book, openModal, handleRefs, resizeGridItem }) 
 							{book.date_finished}
 							{book.date_updated}
 							{book.rating} */}
-		</BookEl>
+				</BookEl>
+			</a>
+		</Fade>
 	)
 }
 

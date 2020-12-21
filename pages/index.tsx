@@ -2,6 +2,8 @@ import React, { useEffect, useRef, useState } from "react"
 import styled, { css } from "styled-components"
 import { v4 as uuidv4 } from "uuid"
 
+import Head from "next/head"
+
 import { shuffle } from "../utils/shuffle"
 import { spinalCase } from "../utils/spinalCase"
 
@@ -66,13 +68,13 @@ const Home = () => {
 	const [goodreads, setGoodreads] = useState<any>([])
 	const [openBook, setOpenBook] = useState<any>([])
 	const [modalOpen, setModalOpen] = useState<boolean>(false)
-	const [allRefs, setAllRefs] = useState<any>([])
 
 	useEffect(() => {
-		let newBooks = books.books.map((book: any) => {
+		let newBooks = books.books.map((book: any, index: number) => {
 			return {
 				...book,
 				id: uuidv4(),
+				index: index,
 				sizeFactor: Math.floor(Math.random() * 15) + 10,
 				spinal_title: spinalCase(book.title),
 				image_url: `/books/${spinalCase(book.title)}-${spinalCase(book.author)}.jpg`
@@ -82,13 +84,7 @@ const Home = () => {
 		setGoodreads(shuffle(newBooks))
 	}, [books])
 
-	const handleRefs = (ref: any) => {
-		console.log(allRefs)
-		setAllRefs((allRefs: any) => [...allRefs, ref])
-	}
-
 	const openModal = (book: any) => {
-		console.log(book)
 		setOpenBook(book)
 		setModalOpen(!modalOpen)
 	}
@@ -108,6 +104,10 @@ const Home = () => {
 
 	return (
 		<Body>
+			<Head>
+				<title>Jack's book shelf | The only downside of having everything on a Kindle</title>
+				<link rel="icon" href="/favicon.ico" />
+			</Head>
 			<Background modalOpen={modalOpen} onClick={() => setModalOpen(false)}>
 				<Modal>
 					<h1>
@@ -120,17 +120,9 @@ const Home = () => {
 			</Background>
 
 			<Grid ref={gridRef}>
-				{goodreads?.map((book: any) => {
-					return (
-						<Book
-							key={book.id}
-							book={book}
-							openModal={() => openModal(book)}
-							handleRefs={(ref: any) => handleRefs(ref)}
-							resizeGridItem={resizeGridItem}
-						/>
-					)
-				})}
+				{goodreads?.map((book: any) => (
+					<Book key={book.id} book={book} openModal={() => openModal(book)} resizeGridItem={resizeGridItem} />
+				))}
 			</Grid>
 		</Body>
 	)
