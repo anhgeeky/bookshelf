@@ -51,6 +51,7 @@ const Book: React.FC<IBook> = ({ book, openModal, handleRefs, resizeGridItem }) 
 		<BookEl style={{ gridRowEnd: span }} onClick={() => openModal(book)} sizeFactor={book.sizeFactor} ref={newRef}>
 			{/* {book.title} */}
 			{/* <div>{index + 1} - index + one</div> */}
+			{/* {JSON.stringify(book.isbn)} */}
 			<img src={book.image_url} alt={book.title} />
 			{/* {console.log(book)} */}
 			{/* {book.title}
