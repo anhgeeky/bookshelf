@@ -1,59 +1,42 @@
-import { useCallback, useEffect, useRef, useState } from "react"
-import styled, { keyframes, css } from "styled-components"
-import { useInView } from "react-intersection-observer"
+import { useEffect, useState } from "react"
+import styled, { css } from "styled-components"
 import { v4 as uuidv4 } from "uuid"
 
-const bannermove = keyframes`
-	0% {
-		transform: translate(0, 0);
-	}
-	100% {
-		transform: translate(-5000%, 0);
-	}
-`
-
 const Container = styled.div`
-	height: 350px;
-	position: relative;
-	overflow: hidden;
+	/* position: relative;
 	width: 100%;
-`
-
-const Banner = styled.div`
-	position: absolute;
+	height: 100%;
 	display: flex;
-	top: 0px;
-	left: 0px;
-	overflow: hidden;
-	white-space: nowrap;
-	animation: ${bannermove} 10000s linear infinite;
+	align-items: flex-start;
+	justify-content: flex-start; */
+	background: red;
+	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: flex-start;
 `
 
 const Body = styled.div`
 	font-size: 22px;
-	min-height: 100vh;
+
 	display: flex;
-	justify-content: center;
-	align-items: center;
 `
 
 interface IBook {
-	trigger: boolean
+	trigger?: boolean
 }
 
 const Book = styled.div<IBook>`
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	height: 250px;
-	margin: 0 0.5em;
+	height: 148px;
+	width: 100px;
+	cursor: pointer;
 
 	img {
 		height: 148px;
 		width: 100px;
 		object-fit: cover;
-		box-shadow: 0px 14px 44px rgba(62, 68, 98, 0.2);
+		/* box-shadow: 0px 14px 44px rgba(62, 68, 98, 0.2); */
 	}
 
 	${props =>
@@ -102,19 +85,16 @@ const Modal = styled.div`
 	animation-fill-mode: forwards;
 `
 
+const Test = styled.div`
+	background: pink;
+	padding: 10px;
+	width: 100%;
+`
+
 const Home = () => {
 	const [goodreads, setGoodreads] = useState<any>([])
-	const [original, setOriginal] = useState<any>([])
 	const [openBook, setOpenBook] = useState<any>([])
 	const [modalOpen, setModalOpen] = useState<boolean>(false)
-	const [calls, setCalls] = useState<number>(0)
-
-	const [originalLength, setOriginalLength] = useState<number>(10)
-
-	const { ref, inView } = useInView({
-		/* Optional options */
-		threshold: 0
-	})
 
 	useEffect(() => {
 		;(async function getTweets() {
@@ -124,47 +104,19 @@ const Home = () => {
 			})
 				.then((res: any) => res.json())
 				.then((json: any) => {
-					const booksWithids = json.books.map((book: any) => {
+					const booksWithids = json.books.map((book: any, index: number) => {
 						return {
 							id: uuidv4(),
+							origIndex: index,
 							...book
 						}
 					})
 
-					const dupBooks = json.books.map((book: any) => {
-						return {
-							id: uuidv4(),
-							...book
-						}
-					})
-
-					setGoodreads([...booksWithids, ...dupBooks])
-					setOriginal(booksWithids)
-					setOriginalLength(booksWithids.length)
-					setCalls(1)
+					setGoodreads(booksWithids)
 				})
 				.catch((error: any) => console.log(error))
 		})()
 	}, [])
-
-	useEffect(() => {
-		if (inView) {
-			const newBooks = original.map((book: any) => {
-				return {
-					...book,
-					id: uuidv4()
-				}
-			})
-			setCalls(calls => calls + 1)
-
-			if (goodreads.length >= originalLength * 3) {
-				const newGoodReads = goodreads.slice(0, originalLength * 3)
-				setGoodreads([...newGoodReads])
-			}
-
-			setGoodreads((goodreads: any) => [...goodreads, ...newBooks])
-		}
-	}, [inView])
 
 	const openModal = (book: any) => {
 		console.log(book)
@@ -173,33 +125,27 @@ const Home = () => {
 	}
 
 	return (
-		<>
-			{inView ? "yes" : "no"}
-			<Body>
-				<Background modalOpen={modalOpen} onClick={() => setModalOpen(false)}>
-					<Modal>
-						<h1>
-							{openBook.title} - {openBook.author}
-							<img src={openBook.image_url} />
-							{openBook.rating > 0 ? openBook.rating : ""}
-							{console.log(openBook)}
-						</h1>
-					</Modal>
-				</Background>
+		<Body>
+			<Background modalOpen={modalOpen} onClick={() => setModalOpen(false)}>
+				<Modal>
+					<h1>
+						{openBook.title} - {openBook.author}
+						<img src={openBook.image_url} />
+						{openBook.rating > 0 ? openBook.rating : ""}
+						{console.log(openBook)}
+					</h1>
+				</Modal>
+			</Background>
+			<Test>
 				<Container>
-					<Banner>
-						{goodreads?.map((book: any, index: number) => {
-							let trigger = index + 1 === (originalLength - 5) * calls
-							return (
-								<Book key={book.id} ref={trigger ? ref : null} trigger={trigger} onClick={() => openModal(book)}>
-									{/* {book.title} */}
-									<div>{calls} - calls</div>
-									<div>{index + 1} - index + one</div>
-									<div>{(originalLength - 5) * calls} - trigger num</div>
-									{trigger ? "TRIGGER" : "no"}
-									<img src={book.image_url} alt={book.title} />
-									{/* {console.log(book)} */}
-									{/* {book.title}
+					{goodreads?.map((book: any) => {
+						return (
+							<Book key={book.id} onClick={() => openModal(book)}>
+								{/* {book.title} */}
+								{/* <div>{index + 1} - index + one</div> */}
+								<img src={book.image_url} alt={book.title} />
+								{/* {console.log(book)} */}
+								{/* {book.title}
 							{book.spinal_title}
 							{book.author}
 							{book.isbn}
@@ -211,13 +157,12 @@ const Home = () => {
 							{book.date_finished}
 							{book.date_updated}
 							{book.rating} */}
-								</Book>
-							)
-						})}
-					</Banner>
+							</Book>
+						)
+					})}
 				</Container>
-			</Body>
-		</>
+			</Test>
+		</Body>
 	)
 }
 
