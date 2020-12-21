@@ -1,0 +1,160 @@
+{
+	"books": [
+		{
+			"title": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life",
+			"spinal_title": "the-subtle-art-of-not-giving-a-f*ck-a-counterintuitive-approach-to-living-a-good-life",
+			"author": "Mark Manson",
+			"image_url": "/books/the-subtle-art-of-not-giving-a-f*ck-a-counterintuitive-approach-to-living-a-good-life-mark-manson.jpg",
+			"link": "https://www.goodreads.com/book/show/28257707-the-subtle-art-of-not-giving-a-f-ck",
+			"rating": "4"
+		},
+		{
+			"title": "Well, You Did Ask...: Why the UK voted to leave the EU",
+			"spinal_title": "well-you-did-ask...-why-the-u-k-voted-to-leave-the-e-u",
+			"author": "Michael Ashcroft",
+			"image_url": "/books/well-you-did-ask...-why-the-u-k-voted-to-leave-the-e-u-michael-ashcroft.jpg",
+			"link": "https://www.goodreads.com/book/show/31942439-well-you-did-ask",
+			"rating": "4"
+		},
+		{
+			"title": "The Places in Between",
+			"spinal_title": "the-places-in-between",
+			"author": "Rory Stewart",
+			"isbn": "0156031566",
+			"image_url": "/books/the-places-in-between-rory-stewart.jpg",
+			"link": "https://www.goodreads.com/book/show/95643.The_Places_in_Between",
+			"rating": "5"
+		},
+		{
+			"title": "Meditations",
+			"spinal_title": "meditations",
+			"author": "Marcus Aurelius",
+			"isbn": "0140449337",
+			"image_url": "/books/meditations-marcus-aurelius.jpg",
+			"link": "https://www.goodreads.com/book/show/30659.Meditations",
+			"rating": "4"
+		},
+		{
+			"title": "Rich Dad, Poor Dad",
+			"spinal_title": "rich-dad-poor-dad",
+			"author": "Robert T. Kiyosaki",
+			"isbn": "0751532711",
+			"image_url": "/books/rich-dad-poor-dad-robert-t.-kiyosaki.jpg",
+			"link": "https://www.goodreads.com/book/show/69571.Rich_Dad_Poor_Dad",
+			"rating": "3"
+		},
+		{
+			"title": "The Day After Roswell",
+			"spinal_title": "the-day-after-roswell",
+			"author": "Philip J. Corso",
+			"isbn": "067101756X",
+			"image_url": "/books/the-day-after-roswell-philip-j.-corso.jpg",
+			"link": "https://www.goodreads.com/book/show/391849.The_Day_After_Roswell",
+			"rating": "5"
+		},
+		{
+			"title": "The Wisdom of Psychopaths: What Saints, Spies, and Serial Killers Can Teach Us About Success",
+			"spinal_title": "the-wisdom-of-psychopaths-what-saints-spies-and-serial-killers-can-teach-us-about-success",
+			"author": "Kevin Dutton",
+			"isbn": "0374291357",
+			"image_url": "/books/the-wisdom-of-psychopaths-what-saints-spies-and-serial-killers-can-teach-us-about-success-kevin-dutton.jpg",
+			"link": "https://www.goodreads.com/book/show/13539039-the-wisdom-of-psychopaths",
+			"rating": "4"
+		},
+		{
+			"title": "The Communist Manifesto",
+			"spinal_title": "the-communist-manifesto",
+			"author": "Karl Marx",
+			"isbn": "0140447571",
+			"image_url": "/books/the-communist-manifesto-karl-marx.jpg",
+			"link": "https://www.goodreads.com/book/show/30474.The_Communist_Manifesto",
+			"rating": "2"
+		},
+		{
+			"title": "How To Be Right… in a World Gone Wrong",
+			"spinal_title": "how-to-be-right…-in-a-world-gone-wrong",
+			"author": "James O'Brien",
+			"isbn": "0753553112",
+			"image_url": "/books/how-to-be-right…-in-a-world-gone-wrong-james-o'-brien.jpg",
+			"link": "https://www.goodreads.com/book/show/39078159-how-to-be-right-in-a-world-gone-wrong",
+			"rating": "3"
+		},
+		{
+			"title": "Living Better: How I Learned to Survive Depression",
+			"spinal_title": "living-better-how-i-learned-to-survive-depression",
+			"author": "Alastair Campbell",
+			"isbn": "152933182X",
+			"image_url": "/books/living-better-how-i-learned-to-survive-depression-alastair-campbell.jpg",
+			"link": "https://www.goodreads.com/book/show/55106600-living-better",
+			"rating": "5"
+		},
+		{
+			"title": "Left Out: The Inside Story of Labour Under Corbyn",
+			"spinal_title": "left-out-the-inside-story-of-labour-under-corbyn",
+			"author": "Gabriel Pogrund",
+			"isbn": "1847926452",
+			"image_url": "/books/left-out-the-inside-story-of-labour-under-corbyn-gabriel-pogrund.jpg",
+			"link": "https://www.goodreads.com/book/show/51003632-left-out",
+			"rating": "4"
+		},
+		{
+			"title": "Natives: Race and Class in the Ruins of Empire",
+			"spinal_title": "natives-race-and-class-in-the-ruins-of-empire",
+			"author": "Akala",
+			"image_url": "/books/natives-race-and-class-in-the-ruins-of-empire-akala.jpg",
+			"link": "https://www.goodreads.com/book/show/36352480-natives",
+			"rating": "5"
+		},
+		{
+			"title": "For the Record",
+			"spinal_title": "for-the-record",
+			"author": "David Cameron",
+			"image_url": "/books/for-the-record-david--cameron.jpg",
+			"link": "https://www.goodreads.com/book/show/45876984-for-the-record",
+			"rating": "3"
+		},
+		{
+			"title": "Yes Man",
+			"spinal_title": "yes-man",
+			"author": "Danny Wallace",
+			"isbn": "1416918345",
+			"image_url": "/books/yes-man-danny-wallace.jpg",
+			"link": "https://www.goodreads.com/book/show/87804.Yes_Man",
+			"rating": "5"
+		},
+		{
+			"title": "Outliers: The Story of Success",
+			"spinal_title": "outliers-the-story-of-success",
+			"author": "Malcolm Gladwell",
+			"image_url": "/books/outliers-the-story-of-success-malcolm-gladwell.jpg",
+			"link": "https://www.goodreads.com/book/show/6114128-outliers",
+			"rating": "4"
+		},
+		{
+			"title": "How to Win Friends and Influence People",
+			"spinal_title": "how-to-win-friends-and-influence-people",
+			"author": "Dale Carnegie",
+			"isbn": "0091906814",
+			"image_url": "/books/how-to-win-friends-and-influence-people-dale-carnegie.jpg",
+			"link": "https://www.goodreads.com/book/show/33288.How_to_Win_Friends_and_Influence_People",
+			"rating": "5"
+		},
+		{
+			"title": "A History of Wales",
+			"spinal_title": "a-history-of-wales",
+			"author": "John Davies",
+			"isbn": "0140145818",
+			"image_url": "/books/a-history-of-wales-john-davies.jpg",
+			"link": "https://www.goodreads.com/book/show/409696.A_History_of_Wales",
+			"rating": "0"
+		},
+		{
+			"title": "The Art of War",
+			"spinal_title": "the-art-of-war",
+			"author": "Sun Tzu",
+			"image_url": "/books/the-art-of-war-sun-tzu.jpg",
+			"link": "https://www.goodreads.com/book/show/31942439-well-you-did-ask",
+			"rating": "4"
+		}
+	]
+}

@@ -1,6 +1,8 @@
 import { useEffect, useRef, useState } from "react"
 import styled, { css } from "styled-components"
 
+import Image from "next/image"
+
 interface IBookEl {
 	sizeFactor: number
 }
@@ -52,7 +54,10 @@ const Book: React.FC<IBook> = ({ book, openModal, handleRefs, resizeGridItem }) 
 			{/* {book.title} */}
 			{/* <div>{index + 1} - index + one</div> */}
 			{/* {JSON.stringify(book.isbn)} */}
-			<img src={book.image_url} alt={book.title} />
+
+			{/* <img src={book.image_url} alt={book.title} /> */}
+
+			<Image src={book.image_url} alt={book.title} width={14.8 * book.sizeFactor} height={10 * book.sizeFactor} />
 			{/* {console.log(book)} */}
 			{/* {book.title}
 							{book.spinal_title}

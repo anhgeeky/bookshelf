@@ -2,13 +2,18 @@ import React, { useEffect, useRef, useState } from "react"
 import styled, { css } from "styled-components"
 import { v4 as uuidv4 } from "uuid"
 
+import { shuffle } from "../utils/shuffle"
+import { spinalCase } from "../utils/spinalCase"
+
+import * as books from "../data/books.json"
+
 import Book from "../components/book"
 
 const Grid = styled.div`
 	display: grid;
 	grid-gap: 10px;
 	grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
-	grid-auto-rows: 20px;
+	grid-auto-rows: 30px;
 	padding: 10px;
 	width: 100%;
 `
@@ -64,34 +69,18 @@ const Home = () => {
 	const [allRefs, setAllRefs] = useState<any>([])
 
 	useEffect(() => {
-		;(async function getTweets() {
-			await fetch("/api/get-goodreads", {
-				method: "GET",
-				headers: { "Content-Type": "application/json" }
-			})
-				.then((res: any) => res.json())
-				.then((json: any) => {
-					const booksWithids = async () => {
-						return Promise.all(
-							json.books.map(async (book: any, index: number) => {
-								return {
-									...book,
-									id: uuidv4(),
-									origIndex: index,
-									sizeFactor: Math.floor(Math.random() * 15) + 10,
-									image_url: `/books/${book.imageName}.jpg`
-								}
-							})
-						)
-					}
+		let newBooks = books.books.map((book: any) => {
+			return {
+				...book,
+				id: uuidv4(),
+				sizeFactor: Math.floor(Math.random() * 15) + 10,
+				spinal_title: spinalCase(book.title),
+				image_url: `/books/${spinalCase(book.title)}-${spinalCase(book.author)}.jpg`
+			}
+		})
 
-					booksWithids().then(data => {
-						setGoodreads(data)
-					})
-				})
-				.catch((error: any) => console.log(error))
-		})()
-	}, [])
+		setGoodreads(shuffle(newBooks))
+	}, [books])
 
 	const handleRefs = (ref: any) => {
 		console.log(allRefs)
