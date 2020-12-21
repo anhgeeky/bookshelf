@@ -7,7 +7,7 @@ import { IBookRes } from "../types/book"
 
 import { resizeGridItem } from "../utils/resizeGridItem"
 interface IBookEl {
-	sizeFactor: number
+	sizeFactor?: number
 }
 
 const BookEl = styled.div<IBookEl>`
@@ -23,7 +23,7 @@ const BookEl = styled.div<IBookEl>`
 		box-shadow: 0px 14px 44px rgba(62, 68, 98, 0.2);
 	}
 
-	${(props: { sizeFactor: number }) =>
+	${(props: { sizeFactor?: number }) =>
 		props.sizeFactor &&
 		css`
 			height: ${14.8 * 20 + "px"};
@@ -35,7 +35,7 @@ const BookEl = styled.div<IBookEl>`
 		`}
 
 	@media (min-width: 500px) {
-		${(props: { sizeFactor: number }) =>
+		${(props: { sizeFactor?: number }) =>
 			props.sizeFactor &&
 			css`
 				height: ${14.8 * props.sizeFactor + "px"};
@@ -55,7 +55,7 @@ interface IBook {
 
 const Book: React.FC<IBook> = ({ book, gridRef }) => {
 	const newRef = useRef(null)
-	const [span, setSpan] = useState<string>("")
+	const [span, setSpan] = useState<any>("")
 
 	useEffect(() => {
 		setSpan(resizeGridItem(newRef.current, gridRef.current))
