@@ -52,9 +52,9 @@ const Home = () => {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
-			<Header>
+			{/* <Header>
 				<h1>Jack's Digital Book Shelf</h1>
-			</Header>
+			</Header> */}
 			<Grid ref={gridRef}>
 				{goodreads?.map((book: IBookRes) => (
 					<Book key={book.id} book={book} gridRef={gridRef} />
