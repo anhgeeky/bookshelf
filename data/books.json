@@ -155,6 +155,14 @@
 			"image_url": "/books/the-art-of-war-sun-tzu.jpg",
 			"link": "https://www.goodreads.com/book/show/10534.The_Art_of_War",
 			"rating": "4"
+		},
+		{
+			"title": "Moneyland",
+			"spinal_title": "moneyland",
+			"author": "Oliver Bullough",
+			"image_url": "/books/moneyland-oliver-bullough.jpg",
+			"link": "https://www.goodreads.com/book/show/39979237-moneyland",
+			"rating": "4"
 		}
 	]
 }
