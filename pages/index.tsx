@@ -27,19 +27,19 @@ const Body = styled.div`
 	flex-direction: column;
 `
 
-const Header = styled.div`
-	h1 {
-		font-family: "Raleway", sans-serif;
-		font-size: 36px;
-		text-align: center;
-		margin: 10px 0;
-		color: #141414;
-	}
+// const Header = styled.div`
+// 	h1 {
+// 		font-family: "Raleway", sans-serif;
+// 		font-size: 36px;
+// 		text-align: center;
+// 		margin: 10px 0;
+// 		color: #141414;
+// 	}
 
-	@media (min-width: 500px) {
-		margin: 20px 0;
-	}
-`
+// 	@media (min-width: 500px) {
+// 		margin: 20px 0;
+// 	}
+// `
 
 const Home = () => {
 	const { goodreads } = usePopulateBooks()
