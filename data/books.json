@@ -163,6 +163,14 @@
 			"image_url": "/books/moneyland-oliver-bullough.jpg",
 			"link": "https://www.goodreads.com/book/show/39979237-moneyland",
 			"rating": "4"
+		},
+		{
+			"title": "The Great Gatsby",
+			"spinal_title": "the-great-gatsby",
+			"author": "F. Scott Fitzgerald",
+			"image_url": "/books/the-great-gatsby-f-scott-fitzgerald.jpg",
+			"link": "https://www.goodreads.com/book/show/4671.The_Great_Gatsby",
+			"rating": "4"
 		}
 	]
 }
