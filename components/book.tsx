@@ -65,7 +65,13 @@ const Book: React.FC<IBook> = ({ book, gridRef }) => {
 		<Fade delay={700} triggerOnce cascade style={{ gridRowEnd: span }}>
 			<a href={book.link} target="_blank">
 				<BookEl sizeFactor={book.sizeFactor} ref={newRef}>
-					<Image src={book.image_url} alt={book.title} width={14.8 * book.sizeFactor} height={10 * book.sizeFactor} />
+					<Image
+						objectFit="cover"
+						src={book.image_url}
+						alt={book.title}
+						width={14.8 * book.sizeFactor}
+						height={10 * book.sizeFactor}
+					/>
 				</BookEl>
 			</a>
 		</Fade>
