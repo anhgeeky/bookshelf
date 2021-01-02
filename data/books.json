@@ -158,6 +158,20 @@
 			"author": "Dylan Thomas",
 			"image_url": "/books/dylan-thomas-omnibus-dylan-thomas.jpg",
 			"link": "https://www.goodreads.com/book/show/237908.The_Dylan_Thomas_Omnibus"
+		},
+		{
+			"title": "Romeo and Juliet",
+			"spinal_title": "romeo-and-juliet-william-shakespeare",
+			"author": "William Shakespeare",
+			"image_url": "/books/romeo-and-juliet-william-shakespeare.jpg",
+			"link": "https://www.goodreads.com/book/show/18135.Romeo_and_Juliet"
+		},
+		{
+			"title": "Who Moved My Cheese",
+			"spinal_title": "who-moved-my-cheese-dr-spencer-johnson",
+			"author": "Dr Spencer Johnson",
+			"image_url": "/books/who-moved-my-cheese-dr-spencer-johnson.jpg",
+			"link": "https://www.goodreads.com/book/show/4894.Who_Moved_My_Cheese_"
 		}
 	]
 }
