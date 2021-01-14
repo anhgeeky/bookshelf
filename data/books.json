@@ -186,6 +186,27 @@
 			"author": "Stephen Hawking",
 			"image_url": "/books/brief-answers-to-the-big-questions-stephen-hawking.jpg",
 			"link": "https://www.goodreads.com/book/show/40277241-brief-answers-to-the-big-questions"
+		},
+		{
+			"title": "Nudge",
+			"spinal_title": "nudge-thaler-and-sunstein",
+			"author": "Thaler and Sunstein",
+			"image_url": "/books/nudge-thaler-and-sunstein.jpg",
+			"link": "https://www.goodreads.com/book/show/3450744-nudge"
+		},
+		{
+			"title": "A Study in Scarlet",
+			"spinal_title": "a-study-in-scarlet-arthur-conan-doyle",
+			"author": "Arthur Conan Doyle",
+			"image_url": "/books/a-study-in-scarlet-arthur-conan-doyle.jpg",
+			"link": "https://www.goodreads.com/book/show/102868.A_Study_in_Scarlet"
+		},
+		{
+			"title": "The Sign of Four",
+			"spinal_title": "the-sign-of-four-arthur-conan-doyle",
+			"author": "Arthur Conan Doyle",
+			"image_url": "/books/the-sign-of-four-arthur-conan-doyle.jpg",
+			"link": "https://www.goodreads.com/book/show/608474.The_Sign_of_Four"
 		}
 	]
 }
