@@ -207,6 +207,20 @@
 			"author": "Arthur Conan Doyle",
 			"image_url": "/books/the-sign-of-four-arthur-conan-doyle.jpg",
 			"link": "https://www.goodreads.com/book/show/608474.The_Sign_of_Four"
+		},
+		{
+			"title": "The Adventures of Sherlock Holmes",
+			"spinal_title": "the-adventures-of-sherlock-holmes-arthur-conan-doyle",
+			"author": "Arthur Conan Doyle",
+			"image_url": "/books/the-adventures-of-sherlock-holmes-arthur-conan-doyle.jpg",
+			"link": "https://www.goodreads.com/book/show/3590.The_Adventures_of_Sherlock_Holmes"
+		},
+		{
+			"title": "Zero to One",
+			"spinal_title": "zero-to-one-peter-thiel",
+			"author": "Peter Thiel",
+			"image_url": "/books/zero-to-one-peter-thiel.jpg",
+			"link": "https://www.goodreads.com/book/show/18050143-zero-to-one"
 		}
 	]
 }
