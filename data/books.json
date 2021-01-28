@@ -221,6 +221,20 @@
 			"author": "Peter Thiel",
 			"image_url": "/books/zero-to-one-peter-thiel.jpg",
 			"link": "https://www.goodreads.com/book/show/18050143-zero-to-one"
+		},
+		{
+			"title": "On Europe",
+			"spinal_title": "on-europe-margaret-thatcher",
+			"author": "Margaret Thatcher",
+			"image_url": "/books/on-europe-margaret-thatcher.jpg",
+			"link": "https://www.goodreads.com/book/show/35231473-on-europe"
+		},
+		{
+			"title": "Stori Cymru",
+			"spinal_title": "stori-cymru-myrddin-ap-dafydd",
+			"author": "Myrddin Ap Dafydd",
+			"image_url": "/books/stori-cymru-myrddin-ap-dafydd.jpg",
+			"link": "https://www.goodreads.com/book/show/33645019-stori-cymru---baledi-a-hanesion"
 		}
 	]
 }
