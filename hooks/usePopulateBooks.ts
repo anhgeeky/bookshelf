@@ -5,7 +5,6 @@ import * as books from "../data/books.json"
 import { IBookRes } from "../types/book"
 
 import { shuffle } from "../utils/shuffle"
-import { spinalCase } from "../utils/spinalCase"
 
 export const usePopulateBooks = () => {
 	const [goodreads, setGoodreads] = useState<IBookRes[]>([])
@@ -17,8 +16,7 @@ export const usePopulateBooks = () => {
 				id: uuidv4(),
 				index: index,
 				sizeFactor: Math.floor(Math.random() * 15) + 10,
-				spinal_title: spinalCase(book.title),
-				image_url: `/books/${spinalCase(book.title)}-${spinalCase(book.author)}.jpg`
+				image_url: book.image_url
 			}
 		})
 

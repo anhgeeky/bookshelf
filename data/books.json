@@ -2,21 +2,18 @@
 	"books": [
 		{
 			"title": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life",
-			"spinal_title": "the-subtle-art-of-not-giving-a-f*ck-a-counterintuitive-approach-to-living-a-good-life",
 			"author": "Mark Manson",
 			"image_url": "/books/the-subtle-art-of-not-giving-a-f*ck-a-counterintuitive-approach-to-living-a-good-life-mark-manson.jpg",
 			"link": "https://www.goodreads.com/book/show/28257707-the-subtle-art-of-not-giving-a-f-ck"
 		},
 		{
 			"title": "Well, You Did Ask...: Why the UK voted to leave the EU",
-			"spinal_title": "well-you-did-ask...-why-the-u-k-voted-to-leave-the-e-u",
 			"author": "Michael Ashcroft",
 			"image_url": "/books/well-you-did-ask...-why-the-u-k-voted-to-leave-the-e-u-michael-ashcroft.jpg",
 			"link": "https://www.goodreads.com/book/show/31942439-well-you-did-ask"
 		},
 		{
 			"title": "The Places in Between",
-			"spinal_title": "the-places-in-between",
 			"author": "Rory Stewart",
 			"isbn": "0156031566",
 			"image_url": "/books/the-places-in-between-rory-stewart.jpg",
@@ -24,7 +21,6 @@
 		},
 		{
 			"title": "Meditations",
-			"spinal_title": "meditations",
 			"author": "Marcus Aurelius",
 			"isbn": "0140449337",
 			"image_url": "/books/meditations-marcus-aurelius.jpg",
@@ -32,7 +28,6 @@
 		},
 		{
 			"title": "Rich Dad, Poor Dad",
-			"spinal_title": "rich-dad-poor-dad",
 			"author": "Robert T. Kiyosaki",
 			"isbn": "0751532711",
 			"image_url": "/books/rich-dad-poor-dad-robert-t.-kiyosaki.jpg",
@@ -40,7 +35,6 @@
 		},
 		{
 			"title": "The Day After Roswell",
-			"spinal_title": "the-day-after-roswell",
 			"author": "Philip J. Corso",
 			"isbn": "067101756X",
 			"image_url": "/books/the-day-after-roswell-philip-j.-corso.jpg",
@@ -48,7 +42,6 @@
 		},
 		{
 			"title": "The Wisdom of Psychopaths: What Saints, Spies, and Serial Killers Can Teach Us About Success",
-			"spinal_title": "the-wisdom-of-psychopaths-what-saints-spies-and-serial-killers-can-teach-us-about-success",
 			"author": "Kevin Dutton",
 			"isbn": "0374291357",
 			"image_url": "/books/the-wisdom-of-psychopaths-what-saints-spies-and-serial-killers-can-teach-us-about-success-kevin-dutton.jpg",
@@ -56,7 +49,6 @@
 		},
 		{
 			"title": "The Communist Manifesto",
-			"spinal_title": "the-communist-manifesto",
 			"author": "Karl Marx",
 			"isbn": "0140447571",
 			"image_url": "/books/the-communist-manifesto-karl-marx.jpg",
@@ -64,7 +56,6 @@
 		},
 		{
 			"title": "How To Be Right… in a World Gone Wrong",
-			"spinal_title": "how-to-be-right…-in-a-world-gone-wrong",
 			"author": "James O'Brien",
 			"isbn": "0753553112",
 			"image_url": "/books/how-to-be-right…-in-a-world-gone-wrong-james-o'-brien.jpg",
@@ -72,7 +63,6 @@
 		},
 		{
 			"title": "Living Better: How I Learned to Survive Depression",
-			"spinal_title": "living-better-how-i-learned-to-survive-depression",
 			"author": "Alastair Campbell",
 			"isbn": "152933182X",
 			"image_url": "/books/living-better-how-i-learned-to-survive-depression-alastair-campbell.jpg",
@@ -80,7 +70,6 @@
 		},
 		{
 			"title": "Left Out: The Inside Story of Labour Under Corbyn",
-			"spinal_title": "left-out-the-inside-story-of-labour-under-corbyn",
 			"author": "Gabriel Pogrund",
 			"isbn": "1847926452",
 			"image_url": "/books/left-out-the-inside-story-of-labour-under-corbyn-gabriel-pogrund.jpg",
@@ -88,21 +77,18 @@
 		},
 		{
 			"title": "Natives: Race and Class in the Ruins of Empire",
-			"spinal_title": "natives-race-and-class-in-the-ruins-of-empire",
 			"author": "Akala",
 			"image_url": "/books/natives-race-and-class-in-the-ruins-of-empire-akala.jpg",
 			"link": "https://www.goodreads.com/book/show/36352480-natives"
 		},
 		{
 			"title": "For the Record",
-			"spinal_title": "for-the-record",
 			"author": "David Cameron",
-			"image_url": "/books/for-the-record-david--cameron.jpg",
+			"image_url": "/books/for-the-record-david-cameron.jpg",
 			"link": "https://www.goodreads.com/book/show/45876984-for-the-record"
 		},
 		{
 			"title": "Yes Man",
-			"spinal_title": "yes-man",
 			"author": "Danny Wallace",
 			"isbn": "1416918345",
 			"image_url": "/books/yes-man-danny-wallace.jpg",
@@ -110,14 +96,12 @@
 		},
 		{
 			"title": "Outliers: The Story of Success",
-			"spinal_title": "outliers-the-story-of-success",
 			"author": "Malcolm Gladwell",
 			"image_url": "/books/outliers-the-story-of-success-malcolm-gladwell.jpg",
 			"link": "https://www.goodreads.com/book/show/6114128-outliers"
 		},
 		{
 			"title": "How to Win Friends and Influence People",
-			"spinal_title": "how-to-win-friends-and-influence-people",
 			"author": "Dale Carnegie",
 			"isbn": "0091906814",
 			"image_url": "/books/how-to-win-friends-and-influence-people-dale-carnegie.jpg",
@@ -125,7 +109,6 @@
 		},
 		{
 			"title": "A History of Wales",
-			"spinal_title": "a-history-of-wales",
 			"author": "John Davies",
 			"isbn": "0140145818",
 			"image_url": "/books/a-history-of-wales-john-davies.jpg",
@@ -133,115 +116,111 @@
 		},
 		{
 			"title": "The Art of War",
-			"spinal_title": "the-art-of-war",
 			"author": "Sun Tzu",
 			"image_url": "/books/the-art-of-war-sun-tzu.jpg",
 			"link": "https://www.goodreads.com/book/show/10534.The_Art_of_War"
 		},
 		{
 			"title": "Moneyland",
-			"spinal_title": "moneyland",
 			"author": "Oliver Bullough",
 			"image_url": "/books/moneyland-oliver-bullough.jpg",
 			"link": "https://www.goodreads.com/book/show/39979237-moneyland"
 		},
 		{
 			"title": "The Great Gatsby",
-			"spinal_title": "the-great-gatsby",
 			"author": "F. Scott Fitzgerald",
 			"image_url": "/books/the-great-gatsby-f-scott-fitzgerald.jpg",
 			"link": "https://www.goodreads.com/book/show/4671.The_Great_Gatsby"
 		},
 		{
 			"title": "Dylan Thomas Omnibus",
-			"spinal_title": "dylan-thomas-omnibus",
 			"author": "Dylan Thomas",
 			"image_url": "/books/dylan-thomas-omnibus-dylan-thomas.jpg",
 			"link": "https://www.goodreads.com/book/show/237908.The_Dylan_Thomas_Omnibus"
 		},
 		{
 			"title": "Romeo and Juliet",
-			"spinal_title": "romeo-and-juliet-william-shakespeare",
 			"author": "William Shakespeare",
 			"image_url": "/books/romeo-and-juliet-william-shakespeare.jpg",
 			"link": "https://www.goodreads.com/book/show/18135.Romeo_and_Juliet"
 		},
 		{
 			"title": "Who Moved My Cheese",
-			"spinal_title": "who-moved-my-cheese-dr-spencer-johnson",
 			"author": "Dr Spencer Johnson",
 			"image_url": "/books/who-moved-my-cheese-dr-spencer-johnson.jpg",
 			"link": "https://www.goodreads.com/book/show/4894.Who_Moved_My_Cheese_"
 		},
 		{
 			"title": "Born a Crime",
-			"spinal_title": "born-a-crime-trevor-noah",
 			"author": "Trevor Noah",
 			"image_url": "/books/born-a-crime-trevor-noah.jpg",
 			"link": "https://www.goodreads.com/book/show/29780253-born-a-crime"
 		},
 		{
 			"title": "Brief Answers to the Big Questions",
-			"spinal_title": "brief-answers-to-the-big-questions-stephen-hawking",
 			"author": "Stephen Hawking",
 			"image_url": "/books/brief-answers-to-the-big-questions-stephen-hawking.jpg",
 			"link": "https://www.goodreads.com/book/show/40277241-brief-answers-to-the-big-questions"
 		},
 		{
 			"title": "Nudge",
-			"spinal_title": "nudge-thaler-and-sunstein",
 			"author": "Thaler and Sunstein",
 			"image_url": "/books/nudge-thaler-and-sunstein.jpg",
 			"link": "https://www.goodreads.com/book/show/3450744-nudge"
 		},
 		{
 			"title": "A Study in Scarlet",
-			"spinal_title": "a-study-in-scarlet-arthur-conan-doyle",
 			"author": "Arthur Conan Doyle",
 			"image_url": "/books/a-study-in-scarlet-arthur-conan-doyle.jpg",
 			"link": "https://www.goodreads.com/book/show/102868.A_Study_in_Scarlet"
 		},
 		{
 			"title": "The Sign of Four",
-			"spinal_title": "the-sign-of-four-arthur-conan-doyle",
 			"author": "Arthur Conan Doyle",
 			"image_url": "/books/the-sign-of-four-arthur-conan-doyle.jpg",
 			"link": "https://www.goodreads.com/book/show/608474.The_Sign_of_Four"
 		},
 		{
 			"title": "The Adventures of Sherlock Holmes",
-			"spinal_title": "the-adventures-of-sherlock-holmes-arthur-conan-doyle",
 			"author": "Arthur Conan Doyle",
 			"image_url": "/books/the-adventures-of-sherlock-holmes-arthur-conan-doyle.jpg",
 			"link": "https://www.goodreads.com/book/show/3590.The_Adventures_of_Sherlock_Holmes"
 		},
 		{
+			"title": "The hounds of the Baskervilles",
+			"author": "Arthur Conan Doyle",
+			"image_url": "/books/the-hound-of-the-baskervilles-arthur-conan-doyle.jpg",
+			"link": "https://www.goodreads.com/book/show/8921.The_Hound_of_the_Baskervilles"
+		},
+		{
 			"title": "Zero to One",
-			"spinal_title": "zero-to-one-peter-thiel",
 			"author": "Peter Thiel",
 			"image_url": "/books/zero-to-one-peter-thiel.jpg",
 			"link": "https://www.goodreads.com/book/show/18050143-zero-to-one"
 		},
 		{
 			"title": "On Europe",
-			"spinal_title": "on-europe-margaret-thatcher",
 			"author": "Margaret Thatcher",
 			"image_url": "/books/on-europe-margaret-thatcher.jpg",
 			"link": "https://www.goodreads.com/book/show/35231473-on-europe"
 		},
 		{
 			"title": "Stori Cymru",
-			"spinal_title": "stori-cymru-myrddin-ap-dafydd",
 			"author": "Myrddin Ap Dafydd",
 			"image_url": "/books/stori-cymru-myrddin-ap-dafydd.jpg",
 			"link": "https://www.goodreads.com/book/show/33645019-stori-cymru---baledi-a-hanesion"
 		},
 		{
 			"title": "Soccernomics",
-			"spinal_title": "soccernomics-simon-kuper-stefan-szymanski",
 			"author": "Simon Kuper Stefan Szymanski",
 			"image_url": "/books/soccernomics-simon-kuper-stefan-szymanski.jpg",
 			"link": "https://www.goodreads.com/book/show/6617185-soccernomics"
+		},
+		{
+			"title": "Servants of the People",
+			"author": "Andrew Rawnsley",
+			"image_url": "/books/servants-of-the-people-andrew-rawnsley.jpg",
+			"link": "https://www.goodreads.com/book/show/1595181.Servants_of_the_People"
 		}
 	]
 }
