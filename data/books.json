@@ -4,271 +4,321 @@
 			"title": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life",
 			"author": "Mark Manson",
 			"image_url": "/books/the-subtle-art-of-not-giving-a-f*ck-a-counterintuitive-approach-to-living-a-good-life-mark-manson.jpg",
-			"link": "https://www.goodreads.com/book/show/28257707-the-subtle-art-of-not-giving-a-f-ck"
+			"link": "https://www.goodreads.com/book/show/28257707-the-subtle-art-of-not-giving-a-f-ck",
+			"rating": "6"
 		},
 		{
 			"title": "Well, You Did Ask...: Why the UK voted to leave the EU",
 			"author": "Michael Ashcroft",
 			"image_url": "/books/well-you-did-ask...-why-the-u-k-voted-to-leave-the-e-u-michael-ashcroft.jpg",
-			"link": "https://www.goodreads.com/book/show/31942439-well-you-did-ask"
+			"link": "https://www.goodreads.com/book/show/31942439-well-you-did-ask",
+			"rating": "5"
 		},
 		{
 			"title": "The Places in Between",
 			"author": "Rory Stewart",
 			"isbn": "0156031566",
 			"image_url": "/books/the-places-in-between-rory-stewart.jpg",
-			"link": "https://www.goodreads.com/book/show/95643.The_Places_in_Between"
+			"link": "https://www.goodreads.com/book/show/95643.The_Places_in_Between",
+			"rating": "8"
 		},
 		{
 			"title": "Meditations",
 			"author": "Marcus Aurelius",
 			"isbn": "0140449337",
 			"image_url": "/books/meditations-marcus-aurelius.jpg",
-			"link": "https://www.goodreads.com/book/show/30659.Meditations"
+			"link": "https://www.goodreads.com/book/show/30659.Meditations",
+			"rating": "7"
 		},
 		{
 			"title": "Rich Dad, Poor Dad",
 			"author": "Robert T. Kiyosaki",
 			"isbn": "0751532711",
 			"image_url": "/books/rich-dad-poor-dad-robert-t.-kiyosaki.jpg",
-			"link": "https://www.goodreads.com/book/show/69571.Rich_Dad_Poor_Dad"
+			"link": "https://www.goodreads.com/book/show/69571.Rich_Dad_Poor_Dad",
+			"rating": "7"
 		},
 		{
 			"title": "The Day After Roswell",
 			"author": "Philip J. Corso",
 			"isbn": "067101756X",
 			"image_url": "/books/the-day-after-roswell-philip-j.-corso.jpg",
-			"link": "https://www.goodreads.com/book/show/391849.The_Day_After_Roswell"
+			"link": "https://www.goodreads.com/book/show/391849.The_Day_After_Roswell",
+			"rating": "8"
 		},
 		{
 			"title": "The Wisdom of Psychopaths: What Saints, Spies, and Serial Killers Can Teach Us About Success",
 			"author": "Kevin Dutton",
 			"isbn": "0374291357",
 			"image_url": "/books/the-wisdom-of-psychopaths-what-saints-spies-and-serial-killers-can-teach-us-about-success-kevin-dutton.jpg",
-			"link": "https://www.goodreads.com/book/show/13539039-the-wisdom-of-psychopaths"
+			"link": "https://www.goodreads.com/book/show/13539039-the-wisdom-of-psychopaths",
+			"rating": "6"
 		},
 		{
 			"title": "The Communist Manifesto",
 			"author": "Karl Marx",
 			"isbn": "0140447571",
 			"image_url": "/books/the-communist-manifesto-karl-marx.jpg",
-			"link": "https://www.goodreads.com/book/show/30474.The_Communist_Manifesto"
+			"link": "https://www.goodreads.com/book/show/30474.The_Communist_Manifesto",
+			"rating": "3"
 		},
 		{
 			"title": "How To Be Right… in a World Gone Wrong",
 			"author": "James O'Brien",
 			"isbn": "0753553112",
 			"image_url": "/books/how-to-be-right…-in-a-world-gone-wrong-james-o'-brien.jpg",
-			"link": "https://www.goodreads.com/book/show/39078159-how-to-be-right-in-a-world-gone-wrong"
+			"link": "https://www.goodreads.com/book/show/39078159-how-to-be-right-in-a-world-gone-wrong",
+			"rating": "6"
 		},
 		{
 			"title": "Living Better: How I Learned to Survive Depression",
 			"author": "Alastair Campbell",
 			"isbn": "152933182X",
 			"image_url": "/books/living-better-how-i-learned-to-survive-depression-alastair-campbell.jpg",
-			"link": "https://www.goodreads.com/book/show/55106600-living-better"
+			"link": "https://www.goodreads.com/book/show/55106600-living-better",
+			"rating": "8"
 		},
 		{
 			"title": "Left Out: The Inside Story of Labour Under Corbyn",
 			"author": "Gabriel Pogrund",
 			"isbn": "1847926452",
 			"image_url": "/books/left-out-the-inside-story-of-labour-under-corbyn-gabriel-pogrund.jpg",
-			"link": "https://www.goodreads.com/book/show/51003632-left-out"
+			"link": "https://www.goodreads.com/book/show/51003632-left-out",
+			"rating": "7"
 		},
 		{
 			"title": "Natives: Race and Class in the Ruins of Empire",
 			"author": "Akala",
 			"image_url": "/books/natives-race-and-class-in-the-ruins-of-empire-akala.jpg",
-			"link": "https://www.goodreads.com/book/show/36352480-natives"
+			"link": "https://www.goodreads.com/book/show/36352480-natives",
+			"rating": "8"
 		},
 		{
 			"title": "For the Record",
 			"author": "David Cameron",
 			"image_url": "/books/for-the-record-david-cameron.jpg",
-			"link": "https://www.goodreads.com/book/show/45876984-for-the-record"
+			"link": "https://www.goodreads.com/book/show/45876984-for-the-record",
+			"rating": "4"
 		},
 		{
 			"title": "Yes Man",
 			"author": "Danny Wallace",
 			"isbn": "1416918345",
 			"image_url": "/books/yes-man-danny-wallace.jpg",
-			"link": "https://www.goodreads.com/book/show/87804.Yes_Man"
+			"link": "https://www.goodreads.com/book/show/87804.Yes_Man",
+			"rating": "9"
 		},
 		{
 			"title": "Outliers: The Story of Success",
 			"author": "Malcolm Gladwell",
 			"image_url": "/books/outliers-the-story-of-success-malcolm-gladwell.jpg",
-			"link": "https://www.goodreads.com/book/show/6114128-outliers"
+			"link": "https://www.goodreads.com/book/show/6114128-outliers",
+			"rating": "7"
 		},
 		{
 			"title": "How to Win Friends and Influence People",
 			"author": "Dale Carnegie",
 			"isbn": "0091906814",
 			"image_url": "/books/how-to-win-friends-and-influence-people-dale-carnegie.jpg",
-			"link": "https://www.goodreads.com/book/show/33288.How_to_Win_Friends_and_Influence_People"
+			"link": "https://www.goodreads.com/book/show/33288.How_to_Win_Friends_and_Influence_People",
+			"rating": "6"
 		},
 		{
 			"title": "A History of Wales",
 			"author": "John Davies",
 			"isbn": "0140145818",
 			"image_url": "/books/a-history-of-wales-john-davies.jpg",
-			"link": "https://www.goodreads.com/book/show/409696.A_History_of_Wales"
+			"link": "https://www.goodreads.com/book/show/409696.A_History_of_Wales",
+			"rating": "7"
 		},
 		{
 			"title": "The Art of War",
 			"author": "Sun Tzu",
 			"image_url": "/books/the-art-of-war-sun-tzu.jpg",
-			"link": "https://www.goodreads.com/book/show/10534.The_Art_of_War"
+			"link": "https://www.goodreads.com/book/show/10534.The_Art_of_War",
+			"rating": "6"
 		},
 		{
 			"title": "Moneyland",
 			"author": "Oliver Bullough",
 			"image_url": "/books/moneyland-oliver-bullough.jpg",
-			"link": "https://www.goodreads.com/book/show/39979237-moneyland"
+			"link": "https://www.goodreads.com/book/show/39979237-moneyland",
+			"rating": "8"
 		},
 		{
 			"title": "The Great Gatsby",
 			"author": "F. Scott Fitzgerald",
 			"image_url": "/books/the-great-gatsby-f-scott-fitzgerald.jpg",
-			"link": "https://www.goodreads.com/book/show/4671.The_Great_Gatsby"
+			"link": "https://www.goodreads.com/book/show/4671.The_Great_Gatsby",
+			"rating": "5"
 		},
 		{
 			"title": "Dylan Thomas Omnibus",
 			"author": "Dylan Thomas",
 			"image_url": "/books/dylan-thomas-omnibus-dylan-thomas.jpg",
-			"link": "https://www.goodreads.com/book/show/237908.The_Dylan_Thomas_Omnibus"
+			"link": "https://www.goodreads.com/book/show/237908.The_Dylan_Thomas_Omnibus",
+			"rating": "6"
 		},
 		{
 			"title": "Romeo and Juliet",
 			"author": "William Shakespeare",
 			"image_url": "/books/romeo-and-juliet-william-shakespeare.jpg",
-			"link": "https://www.goodreads.com/book/show/18135.Romeo_and_Juliet"
+			"link": "https://www.goodreads.com/book/show/18135.Romeo_and_Juliet",
+			"rating": "5"
 		},
 		{
 			"title": "Who Moved My Cheese",
 			"author": "Dr Spencer Johnson",
 			"image_url": "/books/who-moved-my-cheese-dr-spencer-johnson.jpg",
-			"link": "https://www.goodreads.com/book/show/4894.Who_Moved_My_Cheese_"
+			"link": "https://www.goodreads.com/book/show/4894.Who_Moved_My_Cheese_",
+			"rating": "3"
 		},
 		{
 			"title": "Born a Crime",
 			"author": "Trevor Noah",
 			"image_url": "/books/born-a-crime-trevor-noah.jpg",
-			"link": "https://www.goodreads.com/book/show/29780253-born-a-crime"
+			"link": "https://www.goodreads.com/book/show/29780253-born-a-crime",
+			"rating": "8"
 		},
 		{
 			"title": "Brief Answers to the Big Questions",
 			"author": "Stephen Hawking",
 			"image_url": "/books/brief-answers-to-the-big-questions-stephen-hawking.jpg",
-			"link": "https://www.goodreads.com/book/show/40277241-brief-answers-to-the-big-questions"
+			"link": "https://www.goodreads.com/book/show/40277241-brief-answers-to-the-big-questions",
+			"rating": "7"
 		},
 		{
 			"title": "Nudge",
 			"author": "Thaler and Sunstein",
 			"image_url": "/books/nudge-thaler-and-sunstein.jpg",
-			"link": "https://www.goodreads.com/book/show/3450744-nudge"
+			"link": "https://www.goodreads.com/book/show/3450744-nudge",
+			"rating": "7"
 		},
 		{
 			"title": "A Study in Scarlet",
 			"author": "Arthur Conan Doyle",
 			"image_url": "/books/a-study-in-scarlet-arthur-conan-doyle.jpg",
-			"link": "https://www.goodreads.com/book/show/102868.A_Study_in_Scarlet"
+			"link": "https://www.goodreads.com/book/show/102868.A_Study_in_Scarlet",
+			"rating": "8"
 		},
 		{
 			"title": "The Sign of Four",
 			"author": "Arthur Conan Doyle",
 			"image_url": "/books/the-sign-of-four-arthur-conan-doyle.jpg",
-			"link": "https://www.goodreads.com/book/show/608474.The_Sign_of_Four"
+			"link": "https://www.goodreads.com/book/show/608474.The_Sign_of_Four",
+			"rating": "7"
 		},
 		{
 			"title": "The Adventures of Sherlock Holmes",
 			"author": "Arthur Conan Doyle",
 			"image_url": "/books/the-adventures-of-sherlock-holmes-arthur-conan-doyle.jpg",
-			"link": "https://www.goodreads.com/book/show/3590.The_Adventures_of_Sherlock_Holmes"
+			"link": "https://www.goodreads.com/book/show/3590.The_Adventures_of_Sherlock_Holmes",
+			"rating": "4"
 		},
 		{
 			"title": "The hounds of the Baskervilles",
 			"author": "Arthur Conan Doyle",
 			"image_url": "/books/the-hound-of-the-baskervilles-arthur-conan-doyle.jpg",
-			"link": "https://www.goodreads.com/book/show/8921.The_Hound_of_the_Baskervilles"
+			"link": "https://www.goodreads.com/book/show/8921.The_Hound_of_the_Baskervilles",
+			"rating": "4"
 		},
 		{
 			"title": "Zero to One",
 			"author": "Peter Thiel",
 			"image_url": "/books/zero-to-one-peter-thiel.jpg",
-			"link": "https://www.goodreads.com/book/show/18050143-zero-to-one"
+			"link": "https://www.goodreads.com/book/show/18050143-zero-to-one",
+			"rating": "7"
 		},
 		{
 			"title": "On Europe",
 			"author": "Margaret Thatcher",
 			"image_url": "/books/on-europe-margaret-thatcher.jpg",
-			"link": "https://www.goodreads.com/book/show/35231473-on-europe"
+			"link": "https://www.goodreads.com/book/show/35231473-on-europe",
+			"rating": "7"
 		},
 		{
 			"title": "Stori Cymru",
 			"author": "Myrddin Ap Dafydd",
 			"image_url": "/books/stori-cymru-myrddin-ap-dafydd.jpg",
-			"link": "https://www.goodreads.com/book/show/33645019-stori-cymru---baledi-a-hanesion"
+			"link": "https://www.goodreads.com/book/show/33645019-stori-cymru---baledi-a-hanesion",
+			"rating": "6"
 		},
 		{
 			"title": "Soccernomics",
 			"author": "Simon Kuper Stefan Szymanski",
 			"image_url": "/books/soccernomics-simon-kuper-stefan-szymanski.jpg",
-			"link": "https://www.goodreads.com/book/show/6617185-soccernomics"
+			"link": "https://www.goodreads.com/book/show/6617185-soccernomics",
+			"rating": "9"
 		},
 		{
 			"title": "Servants of the People",
 			"author": "Andrew Rawnsley",
 			"image_url": "/books/servants-of-the-people-andrew-rawnsley.jpg",
-			"link": "https://www.goodreads.com/book/show/1595181.Servants_of_the_People"
+			"link": "https://www.goodreads.com/book/show/1595181.Servants_of_the_People",
+			"rating": "7"
 		},
 		{
 			"title": "Greenlights",
 			"author": "Matthew McConaughey",
 			"image_url": "/books/greenlights-matthew-mcconaughey.jpg",
-			"link": "https://www.goodreads.com/book/show/52838315-greenlights"
+			"link": "https://www.goodreads.com/book/show/52838315-greenlights",
+			"rating": "9"
 		},
 		{
 			"title": "Putin: Prisoner of Power",
 			"author": "Misha Glenny",
 			"image_url": "/books/putin-prisoner-of-power-misha-glenny.jpg",
-			"link": "https://www.goodreads.com/en/book/show/52285363-putin"
+			"link": "https://www.goodreads.com/en/book/show/52285363-putin",
+			"rating": "4"
 		},
 		{
 			"title": "Why we get the wrong politicians",
 			"author": "Isabel Hardman",
 			"image_url": "/books/why-we-get-the-wrong-politicians-isabel-hardman.jpg",
-			"link": "https://www.goodreads.com/book/show/39968298-why-we-get-the-wrong-politicians"
+			"link": "https://www.goodreads.com/book/show/39968298-why-we-get-the-wrong-politicians",
+			"rating": "8"
 		},
 		{
 			"title": "The Splendid and the Vile",
 			"author": "Erik Larson",
 			"image_url": "/books/the-splendid-and-the-vile-erik-larson.jpg",
-			"link": "https://www.goodreads.com/book/show/51187948-the-splendid-and-the-vile"
+			"link": "https://www.goodreads.com/book/show/51187948-the-splendid-and-the-vile",
+			"rating": "4"
 		},
 		{
 			"title": "Operation Julie: The World's Greatest LSD Bust",
 			"author": "Lyn Ebenezer",
 			"image_url": "/books/operation-julie-lyn-ebenezer.jpg",
-			"link": "https://www.goodreads.com/book/show/9634222-operation-julie"
+			"link": "https://www.goodreads.com/book/show/9634222-operation-julie",
+			"rating": "7"
 		},
 		{
 			"title": "Light of the Stars: Alien Worlds and the Fate of the Earth",
 			"author": "Adam Frank",
 			"image_url": "/books/light-of-the-stars-adam-frank.jpg",
-			"link": "https://www.goodreads.com/book/show/36236156-light-of-the-stars"
+			"link": "https://www.goodreads.com/book/show/36236156-light-of-the-stars",
+			"rating": "9"
 		},
 		{
 			"title": "Why I'm No Longer Talking to White People About Race",
 			"author": "Reni Eddo-Lodge",
 			"image_url": "/books/no-longer-white-people-reni-eddo-lodge.jpeg",
-			"link": "https://www.goodreads.com/book/show/33606119-why-i-m-no-longer-talking-to-white-people-about-race"
+			"link": "https://www.goodreads.com/book/show/33606119-why-i-m-no-longer-talking-to-white-people-about-race",
+			"rating": "6"
 		},
 		{
 			"title": "The Prince",
-			"author": " Niccolò Machiavelli",
+			"author": "Niccolò Machiavelli",
 			"image_url": "/books/the-prince-machiavelli.jpeg",
-			"link": "https://www.goodreads.com/book/show/28862.The_Prince"
+			"link": "https://www.goodreads.com/book/show/28862.The_Prince",
+			"rating": "7"
+		},
+		{
+			"title": "Wrestling with the Devil: A Prison Memoir",
+			"author": "Ngugi wa Thiong'o",
+			"image_url": "/books/wrestling-with-the-devil-ngugi-wa-thiongo.jpeg",
+			"link": "https://www.goodreads.com/book/show/28862.The_Prince",
+			"rating": "8"
 		}
 	]
 }
