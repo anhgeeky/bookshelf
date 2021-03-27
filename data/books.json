@@ -319,6 +319,13 @@
 			"image_url": "/books/wrestling-with-the-devil-ngugi-wa-thiongo.jpeg",
 			"link": "https://www.goodreads.com/book/show/28862.The_Prince",
 			"rating": "8"
+		},
+		{
+			"title": "First You Write a Sentence",
+			"author": "Joe Moran",
+			"image_url": "/books/first-you-write-a-sentence-joe-moran.jpeg",
+			"link": "https://www.goodreads.com/en/book/show/38470061",
+			"rating": "5"
 		}
 	]
 }
