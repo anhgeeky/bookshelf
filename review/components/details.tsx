@@ -22,7 +22,7 @@ const Col = styled.div<ICol>`
 	width: ${props => props.width}%;
 `
 
-const Details = ({ close, id, book }: any) => {
+const Details = ({ close, book }: any) => {
 	const [localBook, setLocalBook] = useState<any>(null)
 
 	useEffect(() => {
