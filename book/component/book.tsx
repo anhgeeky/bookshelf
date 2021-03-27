@@ -1,11 +1,16 @@
-import { useEffect, useRef, useState } from "react"
+import React, { useEffect, useRef, useState } from "react"
 import styled, { css } from "styled-components"
 import { Fade } from "react-awesome-reveal"
 import Image from "next/image"
 
+import { useRouter } from "next/router"
+
+import { useContextualRouting } from "next-use-contextual-routing"
+
 import { IBookRes } from "../types/book"
 
-import { resizeGridItem } from "../utils/resizeGridItem"
+import { resizeGridItem } from "../../utils/resizeGridItem"
+
 interface IBookEl {
 	sizeFactor?: number
 }
@@ -49,31 +54,40 @@ const BookEl = styled.div<IBookEl>`
 `
 
 interface IBook {
+	delay?: number
 	book: IBookRes
 	gridRef?: any
 }
 
-const Book: React.FC<IBook> = ({ book, gridRef }) => {
+const Book: React.FC<IBook> = ({ book, delay, gridRef }) => {
 	const newRef = useRef(null)
 	const [span, setSpan] = useState<any>("")
 
+	const { makeContextualHref } = useContextualRouting()
+	const router = useRouter()
+
+	const openModal = () =>
+		router.push(makeContextualHref({ id: book.href }), `books/${book.href}`, {
+			shallow: true
+		})
+
 	useEffect(() => {
-		setSpan(resizeGridItem(newRef.current, gridRef.current))
+		if (gridRef) {
+			setSpan(resizeGridItem(newRef.current, gridRef.current))
+		}
 	}, [newRef])
 
 	return (
-		<Fade delay={700} triggerOnce cascade style={{ gridRowEnd: span }}>
-			<a href={book.link} target="_blank">
-				<BookEl sizeFactor={book.sizeFactor} ref={newRef}>
-					<Image
-						objectFit="cover"
-						src={book.image_url}
-						alt={book.title}
-						width={14.8 * book.sizeFactor}
-						height={10 * book.sizeFactor}
-					/>
-				</BookEl>
-			</a>
+		<Fade delay={delay ? delay : 700} triggerOnce cascade style={{ gridRowEnd: span }}>
+			<BookEl sizeFactor={book.sizeFactor} ref={newRef} onClick={openModal}>
+				<Image
+					objectFit="cover"
+					src={book.image_url}
+					alt={book.title}
+					width={14.8 * book.sizeFactor}
+					height={10 * book.sizeFactor}
+				/>
+			</BookEl>
 		</Fade>
 	)
 }

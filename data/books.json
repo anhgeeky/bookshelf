@@ -1,331 +1,452 @@
 {
 	"books": [
 		{
+			"href": "the-subtle-art-of-not-giving-a-f*ck-a-counterintuitive-approach-to-living-a-good-life-mark-manson",
 			"title": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life",
 			"author": "Mark Manson",
 			"image_url": "/books/the-subtle-art-of-not-giving-a-f*ck-a-counterintuitive-approach-to-living-a-good-life-mark-manson.jpg",
 			"link": "https://www.goodreads.com/book/show/28257707-the-subtle-art-of-not-giving-a-f-ck",
-			"rating": "6"
+			"rating": "6",
+			"review": "I am a sucker for a self help book. Very similar to alot of other self help books I've read, take responsibilty. Set goals. - Don't try. The feedback loop from hell. Happiness is a problem. Happiness comes from solving problems. Emotions are overrated. Choose your struggle. You are not special. Things fall apart. The tyranny of exceptionalism. B-b-b-but, if I'm not going to be special or extraordinary, what's the point. The value of suffering. You are always choosing. The responsibility/fault fallacy. Genetics and the hand we're dealt. You're wrong about everything. (But so am I). Architects of our own beliefs.  Be careful what you believe.  The dangers of pure certainty ; Manson's Law of Avoidance.  Kill yourself.  How to be a little less certain of yoursel. Chapter 7. Failure is the way forward. The failure/success paradox.  Pain is part of the process.  The do something principl. Chapter 8. The importance of saying no. Rejection makes your life better. Boundaries. How to build trust. Freedom through commitment. And then you die. Something beyond our selves. The sunny side of death."
 		},
 		{
+			"href": "well-you-did-ask...-why-the-u-k-voted-to-leave-the-e-u-michael-ashcroft",
 			"title": "Well, You Did Ask...: Why the UK voted to leave the EU",
 			"author": "Michael Ashcroft",
 			"image_url": "/books/well-you-did-ask...-why-the-u-k-voted-to-leave-the-e-u-michael-ashcroft.jpg",
 			"link": "https://www.goodreads.com/book/show/31942439-well-you-did-ask",
-			"rating": "5"
+			"rating": "5",
+			"review": "A summary of the country's mood that we now know led us to voting Leave in 2016. Traditional Labour voters, older working class being left behind, being taken for granted no longer being listened to. It was there in the focus groups but the politial parties (and everyone else) missed it."
 		},
 		{
+			"href": "the-places-in-between-rory-stewart",
 			"title": "The Places in Between",
 			"author": "Rory Stewart",
 			"isbn": "0156031566",
 			"image_url": "/books/the-places-in-between-rory-stewart.jpg",
 			"link": "https://www.goodreads.com/book/show/95643.The_Places_in_Between",
-			"rating": "8"
+			"rating": "8",
+			"review": "Rory Stewart always seemed like he was cut from a different cloth, when seeing him on TV in his various roles for the Conservative government and this book confirmed this for me. An incredibly interesting read about him walking solo from Herat to Kabul after the 2001 invasion following 9/11. A real insight into the lives people of Northern Afghanistan, which is a complete contrast with everything I know having spent all my life in the west. The stories of how he slept on villagers' floors, shared their meals, and listened to their stories of the recent and ancient past was riveting, coinciding with the stories of the heroes, rogues, tribal elders and teenage soldiers that he met. The encounter with Taliban commanders was also a tense couple of pages."
 		},
 		{
+			"href": "meditations-marcus-aurelius",
 			"title": "Meditations",
 			"author": "Marcus Aurelius",
 			"isbn": "0140449337",
 			"image_url": "/books/meditations-marcus-aurelius.jpg",
 			"link": "https://www.goodreads.com/book/show/30659.Meditations",
-			"rating": "7"
+			"rating": "7",
+			"review": "Amazing this book survived throughout history. A dipping of the toe into Roman philosophy, a reminder that humans are complex beings and we all have inner monologues. Mad that he never intended for this to be read, these are personal notes. They are very clearly mental notes for himself, I have sympathy for the writing style though as I am similar, writing short notes/thoughts for myself to come back to later. 1) You have power over your mind - not outside events. Realize this, and you will find strength. 2) Very little is needed to make a happy life; it is all within yourself in your way of thinking. "
 		},
 		{
+			"href": "rich-dad-poor-dad-robert-t.-kiyosaki",
 			"title": "Rich Dad, Poor Dad",
 			"author": "Robert T. Kiyosaki",
 			"isbn": "0751532711",
 			"image_url": "/books/rich-dad-poor-dad-robert-t.-kiyosaki.jpg",
 			"link": "https://www.goodreads.com/book/show/69571.Rich_Dad_Poor_Dad",
-			"rating": "7"
+			"rating": "7",
+			"review": "Read this a few years ago, my key take away was buy assets not depreciating fleeting items. Still live by this today."
 		},
 		{
+			"href": "the-day-after-roswell-philip-j.-corso",
 			"title": "The Day After Roswell",
 			"author": "Philip J. Corso",
 			"isbn": "067101756X",
 			"image_url": "/books/the-day-after-roswell-philip-j.-corso.jpg",
 			"link": "https://www.goodreads.com/book/show/391849.The_Day_After_Roswell",
-			"rating": "8"
+			"rating": "8",
+			"review": "I do love an alien conspiracy theory and this book ticked a lot of those boxes. It's been a few years since I've read this, so will need to refresh my memory but the reverse engineering of the technology from the space ships included: fiber optics, integrated circuit chips, and lasers."
 		},
 		{
+			"href": "the-wisdom-of-psychopaths-what-saints-spies-and-serial-killers-can-teach-us-about-success-kevin-dutton",
 			"title": "The Wisdom of Psychopaths: What Saints, Spies, and Serial Killers Can Teach Us About Success",
 			"author": "Kevin Dutton",
 			"isbn": "0374291357",
 			"image_url": "/books/the-wisdom-of-psychopaths-what-saints-spies-and-serial-killers-can-teach-us-about-success-kevin-dutton.jpg",
 			"link": "https://www.goodreads.com/book/show/13539039-the-wisdom-of-psychopaths",
-			"rating": "6"
+			"rating": "6",
+			"review": "A sliding scale of being a psychopath. CEO's etc are on the non murdery side. Read ages ago. Need to refresh."
 		},
 		{
+			"href": "the-communist-manifesto-karl-marx",
 			"title": "The Communist Manifesto",
 			"author": "Karl Marx",
 			"isbn": "0140447571",
 			"image_url": "/books/the-communist-manifesto-karl-marx.jpg",
 			"link": "https://www.goodreads.com/book/show/30474.The_Communist_Manifesto",
-			"rating": "3"
+			"rating": "3",
+			"review": "Not really that practical. My logical brain couldn't get on with it."
 		},
 		{
+			"href": "how-to-be-right…-in-a-world-gone-wrong-james-o'-brien",
 			"title": "How To Be Right… in a World Gone Wrong",
 			"author": "James O'Brien",
 			"isbn": "0753553112",
 			"image_url": "/books/how-to-be-right…-in-a-world-gone-wrong-james-o'-brien.jpg",
 			"link": "https://www.goodreads.com/book/show/39078159-how-to-be-right-in-a-world-gone-wrong",
-			"rating": "6"
+			"rating": "6",
+			"review": "I like JOB and his LBC show, this book was just a summary of his radio show, ask questions until they can't be explained. Also if I ever call LBC for JOB and I disagree with him I know to have loads of facts written down ready..."
 		},
 		{
+			"href": "living-better-how-i-learned-to-survive-depression-alastair-campbell",
 			"title": "Living Better: How I Learned to Survive Depression",
 			"author": "Alastair Campbell",
 			"isbn": "152933182X",
 			"image_url": "/books/living-better-how-i-learned-to-survive-depression-alastair-campbell.jpg",
 			"link": "https://www.goodreads.com/book/show/55106600-living-better",
-			"rating": "8"
+			"rating": "8",
+			"review": "Really good read about how Alastair Campbell has learnt to live with his depression. It effects people in different ways and hearing him talking about his families history of mental health issues and his alcoholism was an eye opener to me. His methods of coping (the jam jar) are also interesting and how he describes his plunges were interesting and it made me feel sympathetic to people living with depression, as he does a good job of explaing it someone who may not have experienced these feelings before."
 		},
 		{
+			"href": "left-out-the-inside-story-of-labour-under-corbyn-gabriel-pogrund",
 			"title": "Left Out: The Inside Story of Labour Under Corbyn",
 			"author": "Gabriel Pogrund",
 			"isbn": "1847926452",
 			"image_url": "/books/left-out-the-inside-story-of-labour-under-corbyn-gabriel-pogrund.jpg",
 			"link": "https://www.goodreads.com/book/show/51003632-left-out",
-			"rating": "7"
+			"rating": "7",
+			"review": "Oh Jeremy Corbyn. Oh Jeremy Corbyn. This was the first of a run of politics books I read, and it turns out everyone in politics seems to have no idea what's going on most of the time. The AS issue in this book though was an eye opener, there did seem to be more of a tollerance of it in the party (which is obviously awful) and there were many opportunities to fix the issue but he didn't. Everyone knew that 2019 would be a disaster too and no one did anything about it. Shocking really."
 		},
 		{
+			"href": "natives-race-and-class-in-the-ruins-of-empire-akala",
+
 			"title": "Natives: Race and Class in the Ruins of Empire",
 			"author": "Akala",
 			"image_url": "/books/natives-race-and-class-in-the-ruins-of-empire-akala.jpg",
 			"link": "https://www.goodreads.com/book/show/36352480-natives",
-			"rating": "8"
+			"rating": "8",
+			"review": "I've watched Akala's videos on YouTube of him speaking about Race & Class in Britain before and this book was a deeper dive in the problems he raises in those videos. Akala does a great job of going over the history of Racism in the UK, the Windrush Generation and how racism isn't always the stereotypical stuff you imagine but the subtle behaviours that people change when around people of a different race. The things he had to endure throughout school was awful to read, essential reading for anyone living in Britain."
 		},
 		{
+			"href": "for-the-record-david-cameron",
+
 			"title": "For the Record",
 			"author": "David Cameron",
 			"image_url": "/books/for-the-record-david-cameron.jpg",
 			"link": "https://www.goodreads.com/book/show/45876984-for-the-record",
-			"rating": "4"
+			"rating": "4",
+			"review": "Davey Cameron is a pie. The initial chapters were interesting learning about his backstory, I always find it interesting learning about where powerful people come from, but once he's in power it becomes a bit of a 'so I did this for this reason and I'm not sorry so fight me' essentially. "
 		},
 		{
+			"href": "yes-man-danny-wallace",
 			"title": "Yes Man",
 			"author": "Danny Wallace",
 			"isbn": "1416918345",
 			"image_url": "/books/yes-man-danny-wallace.jpg",
 			"link": "https://www.goodreads.com/book/show/87804.Yes_Man",
-			"rating": "9"
+			"rating": "9",
+			"review": "The book that kicked it all off. Love this book. I would read this book to the campers at Adirondack as it has many good live lessons I think people should live by. Saying yes to more opportunities normally always leads to good things. I should read this again soon."
 		},
 		{
+			"href": "outliers-the-story-of-success-malcolm-gladwell",
+
 			"title": "Outliers: The Story of Success",
 			"author": "Malcolm Gladwell",
 			"image_url": "/books/outliers-the-story-of-success-malcolm-gladwell.jpg",
 			"link": "https://www.goodreads.com/book/show/6114128-outliers",
-			"rating": "7"
+			"rating": "7",
+			"review": "(Right place + right time ) * Correct work ethic = Outliers. Good read but that eqation sums it up (from memory anyway)."
 		},
 		{
+			"href": "how-to-win-friends-and-influence-people-dale-carnegie",
 			"title": "How to Win Friends and Influence People",
 			"author": "Dale Carnegie",
 			"isbn": "0091906814",
 			"image_url": "/books/how-to-win-friends-and-influence-people-dale-carnegie.jpg",
 			"link": "https://www.goodreads.com/book/show/33288.How_to_Win_Friends_and_Influence_People",
-			"rating": "6"
+			"rating": "6",
+			"review": "Do Not Criticize, Condemn or Complain. Be Generous With Praise. Remember Their Name. Be Genuinely Interested In Other People. Know The Value Of Charm. Be Quick To Acknowledge Your Own Mistakes. Don't Attempt To Win An Argument. Have Others Believe Your Conclusion Is Their Own. "
 		},
 		{
+			"href": "a-history-of-wales-john-davies",
 			"title": "A History of Wales",
 			"author": "John Davies",
 			"isbn": "0140145818",
 			"image_url": "/books/a-history-of-wales-john-davies.jpg",
 			"link": "https://www.goodreads.com/book/show/409696.A_History_of_Wales",
-			"rating": "7"
+			"rating": "7",
+			"review": "Still reading. It's a chunky book and very dry but so interesting. Learnt the origin of the word Saeson. Brythonic for Saxon (Englishmen). Rebuild Offa's Dyke."
 		},
 		{
+			"href": "the-art-of-war-sun-tzu",
+
 			"title": "The Art of War",
 			"author": "Sun Tzu",
 			"image_url": "/books/the-art-of-war-sun-tzu.jpg",
 			"link": "https://www.goodreads.com/book/show/10534.The_Art_of_War",
-			"rating": "6"
+			"rating": "6",
+			"review": "Listened on Audible. Crazy to think that these war tactics have lasted this long and probably shaped many wars across history."
 		},
 		{
+			"href": "moneyland-oliver-bullough",
+
 			"title": "Moneyland",
 			"author": "Oliver Bullough",
 			"image_url": "/books/moneyland-oliver-bullough.jpg",
 			"link": "https://www.goodreads.com/book/show/39979237-moneyland",
-			"rating": "8"
+			"rating": "8",
+			"review": "A breif history of international money and how to hide it. Covering the Eurodollar-  American dollars deposited in London which is not under the control of any jurisdiction. Countries selling passports in order to avoid tax (invest in this country). The Moneyland name comes from the concept that rich people have no country and live in Moneyland. Address leasing companies help them get away with it. Diplomatic status can be assigned to anyone by cash-strapped governments so that they can enjoy diplomatic immunity. Corruption drains money from natural resources, overseas aid and the people. In some countries the whole system is corrupt."
 		},
 		{
+			"href": "the-great-gatsby-f-scott-fitzgerald",
+
 			"title": "The Great Gatsby",
 			"author": "F. Scott Fitzgerald",
 			"image_url": "/books/the-great-gatsby-f-scott-fitzgerald.jpg",
 			"link": "https://www.goodreads.com/book/show/4671.The_Great_Gatsby",
-			"rating": "5"
+			"rating": "5",
+			"review": "A classic that I listened to on Audible. Interesting story, one of those books I'd always heard about but never read. Glad I changed that."
 		},
 		{
+			"href": "dylan-thomas-omnibus-dylan-thomas",
+
 			"title": "Dylan Thomas Omnibus",
 			"author": "Dylan Thomas",
 			"image_url": "/books/dylan-thomas-omnibus-dylan-thomas.jpg",
 			"link": "https://www.goodreads.com/book/show/237908.The_Dylan_Thomas_Omnibus",
-			"rating": "6"
+			"rating": "6",
+			"review": "Reading poetry is hard. Listening to it is not, thank god for Spotify! Great stories and it made me nostalgic for a time that I wasn't alive in. Llareggub, read it backwards. Nogood Boyo."
 		},
 		{
+			"href": "romeo-and-juliet-william-shakespeare",
+
 			"title": "Romeo and Juliet",
 			"author": "William Shakespeare",
 			"image_url": "/books/romeo-and-juliet-william-shakespeare.jpg",
 			"link": "https://www.goodreads.com/book/show/18135.Romeo_and_Juliet",
-			"rating": "5"
+			"rating": "5",
+			"review": "Read it in school, then rewatched the movie recently. A classic."
 		},
 		{
+			"href": "who-moved-my-cheese-dr-spencer-johnson",
+
 			"title": "Who Moved My Cheese",
 			"author": "Dr Spencer Johnson",
 			"image_url": "/books/who-moved-my-cheese-dr-spencer-johnson.jpg",
 			"link": "https://www.goodreads.com/book/show/4894.Who_Moved_My_Cheese_",
-			"rating": "3"
+			"rating": "3",
+			"review": "I mean, if something changes you change your tactics. Easy as really."
 		},
 		{
+			"href": "born-a-crime-trevor-noah",
+
 			"title": "Born a Crime",
 			"author": "Trevor Noah",
 			"image_url": "/books/born-a-crime-trevor-noah.jpg",
 			"link": "https://www.goodreads.com/book/show/29780253-born-a-crime",
-			"rating": "8"
+			"rating": "8",
+			"review": "Listened on Audible and I'm glad I did, Trevor Noah does a great job bringing his story to life of him growing up in SA. He does a great job balancing the funny stories alongside the serious stories and paints a vivid picture of how tough apartheid was. Trevor's mum sounds like a great character and she did an amazing job raising him. A must listen."
 		},
 		{
+			"href": "brief-answers-to-the-big-questions-stephen-hawking",
+
 			"title": "Brief Answers to the Big Questions",
 			"author": "Stephen Hawking",
 			"image_url": "/books/brief-answers-to-the-big-questions-stephen-hawking.jpg",
 			"link": "https://www.goodreads.com/book/show/40277241-brief-answers-to-the-big-questions",
-			"rating": "7"
+			"rating": "7",
+			"review": "A Christmas present from Izzy, a short read that covers the basics of the big universe. I love a deep question and conversation so this book was great to scratch that itch."
 		},
 		{
+			"href": "nudge-thaler-and-sunstein",
+
 			"title": "Nudge",
 			"author": "Thaler and Sunstein",
 			"image_url": "/books/nudge-thaler-and-sunstein.jpg",
 			"link": "https://www.goodreads.com/book/show/3450744-nudge",
-			"rating": "7"
+			"rating": "7",
+			"review": "People are lazy. The easiest option normally always wins. This book proves that. Software, shopping, politics. Basically we should be being nudged all the time. Why goverments don't use this more baffles me."
 		},
 		{
+			"href": "a-study-in-scarlet-arthur-conan-doyle",
+
 			"title": "A Study in Scarlet",
 			"author": "Arthur Conan Doyle",
 			"image_url": "/books/a-study-in-scarlet-arthur-conan-doyle.jpg",
 			"link": "https://www.goodreads.com/book/show/102868.A_Study_in_Scarlet",
-			"rating": "8"
+			"rating": "8",
+			"review": "Audible -"
 		},
 		{
+			"href": "the-sign-of-four-arthur-conan-doyle",
+
 			"title": "The Sign of Four",
 			"author": "Arthur Conan Doyle",
 			"image_url": "/books/the-sign-of-four-arthur-conan-doyle.jpg",
 			"link": "https://www.goodreads.com/book/show/608474.The_Sign_of_Four",
-			"rating": "7"
+			"rating": "7",
+			"review": "Audible -"
 		},
 		{
+			"href": "the-adventures-of-sherlock-holmes-arthur-conan-doyle",
+
 			"title": "The Adventures of Sherlock Holmes",
 			"author": "Arthur Conan Doyle",
 			"image_url": "/books/the-adventures-of-sherlock-holmes-arthur-conan-doyle.jpg",
 			"link": "https://www.goodreads.com/book/show/3590.The_Adventures_of_Sherlock_Holmes",
-			"rating": "4"
+			"rating": "4",
+			"review": "Audible -"
 		},
 		{
+			"href": "the-hound-of-the-baskervilles-arthur-conan-doyle",
+
 			"title": "The hounds of the Baskervilles",
 			"author": "Arthur Conan Doyle",
 			"image_url": "/books/the-hound-of-the-baskervilles-arthur-conan-doyle.jpg",
 			"link": "https://www.goodreads.com/book/show/8921.The_Hound_of_the_Baskervilles",
-			"rating": "4"
+			"rating": "4",
+			"review": "Audible -"
 		},
 		{
+			"href": "zero-to-one-peter-thiel",
+
 			"title": "Zero to One",
 			"author": "Peter Thiel",
 			"image_url": "/books/zero-to-one-peter-thiel.jpg",
 			"link": "https://www.goodreads.com/book/show/18050143-zero-to-one",
-			"rating": "7"
+			"rating": "7",
+			"review": "Summary of the book is think radically different. The biggest leaps in progress are vertical, not horizontal. Monopolies are good, for both business and society (not sure I agree with this completely) & Founders need a vision to take their business from zero to one."
 		},
 		{
+			"href": "on-europe-margaret-thatcher",
+
 			"title": "On Europe",
 			"author": "Margaret Thatcher",
 			"image_url": "/books/on-europe-margaret-thatcher.jpg",
 			"link": "https://www.goodreads.com/book/show/35231473-on-europe",
-			"rating": "7"
+			"rating": "7",
+			"review": "I rate this a 7 because it gives more evidence to the fact that whether you like her or not, Margaret Thatcher had a massive impact on UK policy making well after she left the office and even passed away.  All of her arguments against the EU are basically the same ones we've heard for the past 5 years, which is impressive even if I don't agree with them."
 		},
 		{
+			"href": "stori-cymru-myrddin-ap-dafydd",
+
 			"title": "Stori Cymru",
 			"author": "Myrddin Ap Dafydd",
 			"image_url": "/books/stori-cymru-myrddin-ap-dafydd.jpg",
 			"link": "https://www.goodreads.com/book/show/33645019-stori-cymru---baledi-a-hanesion",
-			"rating": "6"
+			"rating": "6",
+			"review": "Bought to brush up on my Welsh, wish it was a bit more factual but never the less a good read about the stories from Wales' past."
 		},
 		{
+			"href": "soccernomics-simon-kuper-stefan-szymanski",
+
 			"title": "Soccernomics",
 			"author": "Simon Kuper Stefan Szymanski",
 			"image_url": "/books/soccernomics-simon-kuper-stefan-szymanski.jpg",
 			"link": "https://www.goodreads.com/book/show/6617185-soccernomics",
-			"rating": "9"
+			"rating": "9",
+			"review": "I loved this book. The insight into football was great and I've recommeneded this book to anyone who has even the slightest interest in football because it's amazing how much data can be used to affect the game. The latest editions include better references and the methods they use in the book to measure performance are now used by top clubs every game, so you can't fault that really."
 		},
 		{
+			"href": "servants-of-the-people-andrew-rawnsley",
+
 			"title": "Servants of the People",
 			"author": "Andrew Rawnsley",
 			"image_url": "/books/servants-of-the-people-andrew-rawnsley.jpg",
 			"link": "https://www.goodreads.com/book/show/1595181.Servants_of_the_People",
-			"rating": "7"
+			"rating": "7",
+			"review": "I've always been interested in the Tony Blair 'presidency' for two reasons. 1) He understood how to win from the centre of politics and that's something I agree with and believe Labour has to do again to win. 2) Since my formative years were during his premiership, I find it interesting to see what policies he bought in that affected me. The feuding between Brown and Blair was interesting to read about, they're meant to be on the same team but are constantly fighting for power. They should be working for us."
 		},
 		{
+			"href": "greenlights-matthew-mcconaughey",
+
 			"title": "Greenlights",
 			"author": "Matthew McConaughey",
 			"image_url": "/books/greenlights-matthew-mcconaughey.jpg",
 			"link": "https://www.goodreads.com/book/show/52838315-greenlights",
-			"rating": "9"
+			"rating": "9",
+			"review": "Alright, Alright, Alright. Another Audible listen here and I would almost say I wouldn't have enjoyed this story as much if it hadn't been an audiobook. The way he tells his story is great and does a good job bringing it to life."
 		},
 		{
+			"href": "putin-prisoner-of-power-misha-glenny",
+
 			"title": "Putin: Prisoner of Power",
 			"author": "Misha Glenny",
 			"image_url": "/books/putin-prisoner-of-power-misha-glenny.jpg",
 			"link": "https://www.goodreads.com/en/book/show/52285363-putin",
-			"rating": "4"
+			"rating": "4",
+			"review": "An Audible series about Putin and his rise to power, yikes."
 		},
 		{
+			"href": "why-we-get-the-wrong-politicians-isabel-hardman",
+
 			"title": "Why we get the wrong politicians",
 			"author": "Isabel Hardman",
 			"image_url": "/books/why-we-get-the-wrong-politicians-isabel-hardman.jpg",
 			"link": "https://www.goodreads.com/book/show/39968298-why-we-get-the-wrong-politicians",
-			"rating": "8"
+			"rating": "8",
+			"review": "Turns out being a politician is expensive and the people who would actually be good at the job are off doing other things. It's all about who you know and unless you can take control of the reigns of a party, we're all gonna be stuck with the same lot for ever and ever."
 		},
 		{
+			"href": "the-splendid-and-the-vile-erik-larson",
+
 			"title": "The Splendid and the Vile",
 			"author": "Erik Larson",
 			"image_url": "/books/the-splendid-and-the-vile-erik-larson.jpg",
 			"link": "https://www.goodreads.com/book/show/51187948-the-splendid-and-the-vile",
-			"rating": "4"
+			"rating": "4",
+			"review": ""
 		},
 		{
+			"href": "operation-julie-lyn-ebenezer",
+
 			"title": "Operation Julie: The World's Greatest LSD Bust",
 			"author": "Lyn Ebenezer",
 			"image_url": "/books/operation-julie-lyn-ebenezer.jpg",
 			"link": "https://www.goodreads.com/book/show/9634222-operation-julie",
-			"rating": "7"
+			"rating": "7",
+			"review": "Great topic. Should be a netflix series. Tempted to write a script for it, but have no idea where to start. The book is a bit scatter gun all over the place, but still an interesting read. All the rock stars going to Llanddewi Brefi to buy their LSD is nuts."
 		},
 		{
+			"href": "light-of-the-stars-adam-frank",
+
 			"title": "Light of the Stars: Alien Worlds and the Fate of the Earth",
 			"author": "Adam Frank",
 			"image_url": "/books/light-of-the-stars-adam-frank.jpg",
 			"link": "https://www.goodreads.com/book/show/36236156-light-of-the-stars",
-			"rating": "9"
+			"rating": "9",
+			"review": "The Drake Equation! The Atmosphere! Alien Life! Venus and Mars landers! A recap of the history of our journey in space so far as the human race. Made me think about the complexities of the universe and how we're definetly not alone in the universe. If we are (as there always has to be a first), christ that's scary."
 		},
 		{
+			"href": "no-longer-white-people-reni-eddo-lodge",
+
 			"title": "Why I'm No Longer Talking to White People About Race",
 			"author": "Reni Eddo-Lodge",
 			"image_url": "/books/no-longer-white-people-reni-eddo-lodge.jpeg",
 			"link": "https://www.goodreads.com/book/show/33606119-why-i-m-no-longer-talking-to-white-people-about-race",
-			"rating": "6"
+			"rating": "6",
+			"review": "Changed the way I think about White Privalege and the fact that if you're white, your race will not impact your life's trajectory."
 		},
 		{
+			"href": "the-prince-machiavelli",
+
 			"title": "The Prince",
 			"author": "Niccolò Machiavelli",
 			"image_url": "/books/the-prince-machiavelli.jpeg",
 			"link": "https://www.goodreads.com/book/show/28862.The_Prince",
-			"rating": "7"
+			"rating": "7",
+			"review": "Politics be politicing. An interesting read and lives up to the hype around it, (I mean it must have because his last name became synonymous with being sneaky) but yeah do anything it takes to win. To protect a country it needs its own army, not mercenaries. Makes sense really, fight for something instead of being paid to fight for a thing you don't believe in."
 		},
 		{
+			"href": "wrestling-with-the-devil-ngugi-wa-thiongo",
+
 			"title": "Wrestling with the Devil: A Prison Memoir",
 			"author": "Ngugi wa Thiong'o",
 			"image_url": "/books/wrestling-with-the-devil-ngugi-wa-thiongo.jpeg",
 			"link": "https://www.goodreads.com/book/show/28862.The_Prince",
-			"rating": "8"
+			"rating": "8",
+			"review": "Christ, Britain did some messed up shit in Kenya. The prison memoirs paint a vivid picture of life inside the prison and the effects of being starved of human contact whilst in isolation. The human mind is fragile and the author does a good job describing the internal struggle he's dealing with. The fact that he was arrested for simply bringing communities together over a play is nuts."
 		},
 		{
+			"href": "first-you-write-a-sentence-joe-moran",
+
 			"title": "First You Write a Sentence",
 			"author": "Joe Moran",
 			"image_url": "/books/first-you-write-a-sentence-joe-moran.jpeg",
 			"link": "https://www.goodreads.com/en/book/show/38470061",
-			"rating": "5"
+			"rating": "5",
+			"review": "An interesting take on the English language, how sentence structure is important and it influences how people think, which is something I haven't really put too much thought into before. People that are fluent in different langauges think in different ways, based on how sentences are structured. Interesting.S"
 		}
 	]
 }

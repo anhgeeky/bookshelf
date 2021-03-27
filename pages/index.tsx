@@ -1,12 +1,16 @@
 import React, { useRef } from "react"
 import styled from "styled-components"
 import Head from "next/head"
+import Modal from "react-modal"
 
-import Book from "../components/book"
+import Book from "../book/component/book"
 
-import { IBookRes } from "../types/book"
+import { IBookRes } from "../book/types/book"
 
-import { usePopulateBooks } from "../hooks/usePopulateBooks"
+import { usePopulateBooks } from "../book/hooks/usePopulateBooks"
+import { useRouter } from "next/router"
+import { useContextualRouting } from "next-use-contextual-routing"
+import Details from "../review/components/details"
 
 const Grid = styled.div`
 	display: grid;
@@ -27,34 +31,39 @@ const Body = styled.div`
 	flex-direction: column;
 `
 
-// const Header = styled.div`
-// 	h1 {
-// 		font-family: "Raleway", sans-serif;
-// 		font-size: 36px;
-// 		text-align: center;
-// 		margin: 10px 0;
-// 		color: #141414;
-// 	}
-
-// 	@media (min-width: 500px) {
-// 		margin: 20px 0;
-// 	}
-// `
+Modal.setAppElement("#__next")
 
 const Home = () => {
 	const { goodreads } = usePopulateBooks()
 	const gridRef = useRef(null)
 
+	const router = useRouter()
+
+	const { returnHref } = useContextualRouting()
+
 	return (
 		<Body>
 			<Head>
-				<title>Jack's Digital Book Shelf | The only downside of having everything on a Kindle</title>
+				<title>Jack's Digital Book Shelf | The only downside of having books on a Kindle</title>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
-			{/* <Header>
-				<h1>Jack's Digital Book Shelf</h1>
-			</Header> */}
+			<Modal
+				closeTimeoutMS={400}
+				isOpen={!!router.query.id}
+				onRequestClose={() => router.push(returnHref)}
+				contentLabel="Post modal"
+				style={{
+					overlay: {
+						backgroundColor: "rgba(255, 255, 255, 0.3)"
+					}
+				}}>
+				<Details
+					close={() => router.push(returnHref)}
+					id={router.query.id}
+					book={goodreads.find(book => book.href === router.query.id)}
+				/>
+			</Modal>
 			<Grid ref={gridRef}>
 				{goodreads?.map((book: IBookRes) => (
 					<Book key={book.id} book={book} gridRef={gridRef} />

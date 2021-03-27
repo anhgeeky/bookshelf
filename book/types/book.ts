@@ -1,5 +1,6 @@
 export interface IBookRes {
 	id?: string
+	href?: string
 	index?: number
 	title: string
 	author: string
@@ -7,5 +8,6 @@ export interface IBookRes {
 	image_url: string
 	link: string
 	rating?: string
+	review?: string
 	sizeFactor: number
 }

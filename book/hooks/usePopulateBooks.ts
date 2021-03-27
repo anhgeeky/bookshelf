@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react"
 import { v4 as uuidv4 } from "uuid"
 
-import * as books from "../data/books.json"
+import * as books from "../../data/books.json"
 import { IBookRes } from "../types/book"
 
-import { shuffle } from "../utils/shuffle"
+import { shuffle } from "../../utils/shuffle"
 
 export const usePopulateBooks = () => {
 	const [goodreads, setGoodreads] = useState<IBookRes[]>([])
