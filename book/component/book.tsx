@@ -13,6 +13,7 @@ import { resizeGridItem } from "../../utils/resizeGridItem"
 
 interface IBookEl {
 	sizeFactor?: number
+	noHover?: boolean
 }
 
 const BookEl = styled.div<IBookEl>`
@@ -24,7 +25,8 @@ const BookEl = styled.div<IBookEl>`
 
 	> div {
 		object-fit: cover;
-		cursor: pointer;
+		cursor: ${props => (props.noHover ? "auto" : "pointer")};
+
 		box-shadow: 0px 14px 44px rgba(62, 68, 98, 0.2);
 	}
 
@@ -57,9 +59,10 @@ interface IBook {
 	delay?: number
 	book: IBookRes
 	gridRef?: any
+	noHover?: boolean
 }
 
-const Book: React.FC<IBook> = ({ book, delay, gridRef }) => {
+const Book: React.FC<IBook> = ({ book, delay, gridRef, noHover }) => {
 	const newRef = useRef(null)
 	const [span, setSpan] = useState<any>("")
 
@@ -79,7 +82,7 @@ const Book: React.FC<IBook> = ({ book, delay, gridRef }) => {
 
 	return (
 		<Fade delay={delay ? delay : 700} triggerOnce cascade style={{ gridRowEnd: span }}>
-			<BookEl sizeFactor={book.sizeFactor} ref={newRef} onClick={openModal}>
+			<BookEl sizeFactor={book.sizeFactor} ref={newRef} onClick={openModal} noHover={noHover}>
 				<Image
 					objectFit="cover"
 					src={book.image_url}
