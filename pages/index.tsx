@@ -56,6 +56,10 @@ const Home = () => {
 				style={{
 					overlay: {
 						backgroundColor: "rgba(255, 255, 255, 0.3)"
+					},
+					content: {
+						inset: "15px",
+						padding: "10px"
 					}
 				}}>
 				<Details

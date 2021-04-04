@@ -125,9 +125,11 @@ const Details = ({ close, book }: any) => {
 									<p>{book.review}</p>
 								</div>
 							)}
-							<Link href={book.link} target="blank">
-								Goodreads
-							</Link>
+							<div style={{ paddingBottom: "10px" }}>
+								<Link href={book.link} target="blank">
+									Goodreads
+								</Link>
+							</div>
 						</div>
 					</Col>
 				</Row>
