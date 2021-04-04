@@ -49,6 +49,7 @@ const ButtonEl = styled.button`
 	display: flex;
 	background: transparent;
 	position: absolute;
+	top: 10px;
 	right: 10px;
 	cursor: pointer;
 
