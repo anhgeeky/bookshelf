@@ -59,7 +59,11 @@ const Home = () => {
 					},
 					content: {
 						inset: "15px",
-						padding: "10px"
+						padding: "10px",
+						left: "10px",
+						right: "10px",
+						top: "10px",
+						bottom: "10px"
 					}
 				}}>
 				<Details

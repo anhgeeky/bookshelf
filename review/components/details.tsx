@@ -48,9 +48,9 @@ const ButtonEl = styled.button`
 	outline: none;
 	display: flex;
 	background: transparent;
-	position: absolute;
-	top: 10px;
-	right: 10px;
+	position: fixed;
+	margin: 10px 0 0%;
+	right: 15px;
 	cursor: pointer;
 
 	svg {
@@ -102,7 +102,7 @@ const Details = ({ close, book }: any) => {
 					<Col width={45}>
 						{localBook && (
 							<BookContainer>
-								<Book delay={10} book={localBook} noHover />
+								<Book delay={400} book={localBook} noHover />
 							</BookContainer>
 						)}
 					</Col>
@@ -111,16 +111,15 @@ const Details = ({ close, book }: any) => {
 							<Heading level="h1" style={{ marginBottom: "10px", width: "90%" }}>
 								{book.title}
 							</Heading>
-							<Heading level="h2" levelClass="h3" weight={400}>
+							<Heading level="h2" weight={400} style={{ marginBottom: "10px", width: "90%" }}>
 								{book.author}
 							</Heading>
 
-							<ReactStars edit={false} count={10} value={Number(book.rating)} size={18} activeColor="#ffd700" />
-
 							{book.review && (
 								<div>
-									<Heading level="h3" levelClass="h4" style={{ margin: "10px 0" }}>
-										Thoughts
+									<ReactStars edit={false} count={10} value={Number(book.rating)} size={18} activeColor="#ffd700" />
+									<Heading level="h3" levelClass="h3" style={{ margin: "10px 0" }}>
+										My quick take
 									</Heading>
 									<p>{book.review}</p>
 								</div>
