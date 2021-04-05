@@ -49,13 +49,17 @@ const ButtonEl = styled.button`
 	display: flex;
 	background: transparent;
 	position: fixed;
-	margin: 10px 0 0%;
-	right: 15px;
+	margin: 10px 10px 0 0;
+	right: 0;
 	cursor: pointer;
 
 	svg {
 		height: 25px;
 		width: 25px;
+	}
+
+	@media (min-width: ${size.tablet}) {
+		margin: 10px 10px 10px 10px;
 	}
 `
 
