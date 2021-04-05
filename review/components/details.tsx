@@ -13,6 +13,7 @@ const Layout = styled.div`
 	display: flex;
 	flex-direction: column;
 	height: 100%;
+	position: relative;
 `
 
 const Row = styled.div`
@@ -46,16 +47,22 @@ const Col = styled.div<ICol>`
 const ButtonEl = styled.button`
 	border: 0;
 	outline: none;
-	display: flex;
+	display: inline-block;
 	background: transparent;
 	position: fixed;
-	margin: 10px 10px 0 0;
-	right: 0;
+	margin: 0;
+	right: 30px;
+	top: 30px;
 	cursor: pointer;
+	width: 25px;
+	height: 25px;
 
 	svg {
 		height: 25px;
 		width: 25px;
+		position: absolute;
+		right: 0;
+		top: 0;
 	}
 
 	@media (min-width: ${size.tablet}) {
