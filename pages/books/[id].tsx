@@ -6,13 +6,23 @@ import { useRouter } from "next/router"
 import Details from "../../review/components/details"
 
 import * as books from "../../data/books.json"
+import Head from "next/head"
 
 export default function Book({ id, book }: any) {
 	const router = useRouter()
 
 	// const { bookId } = router.query
 
-	return <Details close={() => router.push("/")} id={router.query.id || id} book={book} />
+	return (
+		<>
+			<Head>
+				<title>{book.title}</title>
+				<meta name="description" content={`A quick book review of ${book.title}`} />
+			</Head>
+
+			<Details close={() => router.push("/")} id={router.query.id || id} book={book} />
+		</>
+	)
 }
 
 export async function getStaticPaths() {

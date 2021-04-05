@@ -44,8 +44,9 @@ const Home = () => {
 	return (
 		<Body>
 			<Head>
-				<title>Jack's Digital Book Shelf | The only downside of having books on a Kindle</title>
+				<title>Digital bookshelf</title>
 				<link rel="icon" href="/favicon.ico" />
+				<meta name="description" content="Digital bookshelf with some quick thoughts thrown in." />
 			</Head>
 
 			<Modal
