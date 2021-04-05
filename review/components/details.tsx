@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react"
 import styled from "styled-components"
 import ReactStars from "react-rating-stars-component"
+import { Fade } from "react-awesome-reveal"
 
 import Book from "../../book/component/book"
 
@@ -17,6 +18,17 @@ const Layout = styled.div`
 `
 
 const Row = styled.div`
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+
+	@media (min-width: ${size.tablet}) {
+		flex-direction: row;
+	}
+`
+
+const StyledRowFade = styled(Fade)`
 	display: flex;
 	flex-direction: column;
 	width: 100%;
@@ -56,6 +68,7 @@ const ButtonEl = styled.button`
 	cursor: pointer;
 	width: 25px;
 	height: 25px;
+	z-index: 999;
 
 	svg {
 		height: 25px;
@@ -109,40 +122,42 @@ const Details = ({ close, book }: any) => {
 						</g>
 					</svg>
 				</ButtonEl>
-				<Row>
-					<Col width={45}>
-						{localBook && (
-							<BookContainer>
-								<Book delay={400} book={localBook} noHover />
-							</BookContainer>
-						)}
-					</Col>
-					<Col width={55}>
-						<div>
-							<Heading level="h1" style={{ marginBottom: "10px", width: "90%" }}>
-								{book.title}
-							</Heading>
-							<Heading level="h2" weight={400} style={{ marginBottom: "10px", width: "90%" }}>
-								{book.author}
-							</Heading>
-
-							{book.review && (
-								<div>
-									<ReactStars edit={false} count={10} value={Number(book.rating)} size={18} activeColor="#ffd700" />
-									<Heading level="h3" levelClass="h3" style={{ margin: "10px 0" }}>
-										My quick take
-									</Heading>
-									<p>{book.review}</p>
-								</div>
+				<StyledRowFade cascade triggerOnce>
+					<Row>
+						<Col width={45}>
+							{localBook && (
+								<BookContainer>
+									<Book delay={400} book={localBook} noHover />
+								</BookContainer>
 							)}
-							<div style={{ paddingBottom: "10px" }}>
-								<Link href={book.link} target="blank">
-									Goodreads
-								</Link>
+						</Col>
+						<Col width={55}>
+							<div>
+								<Heading level="h1" style={{ marginBottom: "10px", width: "90%" }}>
+									{book.title}
+								</Heading>
+								<Heading level="h2" weight={400} style={{ marginBottom: "10px", width: "90%" }}>
+									{book.author}
+								</Heading>
+
+								{book.review && (
+									<div>
+										<ReactStars edit={false} count={10} value={Number(book.rating)} size={18} activeColor="#ffd700" />
+										<Heading level="h3" levelClass="h3" style={{ margin: "10px 0" }}>
+											My quick take
+										</Heading>
+										<p>{book.review}</p>
+									</div>
+								)}
+								<div style={{ paddingBottom: "10px" }}>
+									<Link href={book.link} target="blank">
+										Goodreads
+									</Link>
+								</div>
 							</div>
-						</div>
-					</Col>
-				</Row>
+						</Col>
+					</Row>
+				</StyledRowFade>
 			</Layout>
 		)
 	}
