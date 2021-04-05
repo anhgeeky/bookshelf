@@ -44,7 +44,7 @@ const Home = () => {
 	return (
 		<Body>
 			<Head>
-				<title>Digital bookshelf</title>
+				<title>Digital book shelf</title>
 				<link rel="icon" href="/favicon.ico" />
 				<meta name="description" content="Digital bookshelf with some quick thoughts thrown in." />
 			</Head>
