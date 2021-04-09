@@ -3639,11 +3639,6 @@ react-dom@^16.13.0:
     prop-types "^15.6.2"
     scheduler "^0.19.1"
 
-react-hotjar@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/react-hotjar/-/react-hotjar-2.2.1.tgz#5f06d15a146960262dba612657c828c8b58da8a3"
-  integrity sha512-rkHdsFDfI7HCKeAwkHPf8Vq7ZbpX0oE4/5GgVvNambWw8z0PSKKxi59qWYX7H+dDYjchiL3z3hrAFQ+PohgQOA==
-
 react-intersection-observer@^8.30.3:
   version "8.31.0"
   resolved "https://registry.yarnpkg.com/react-intersection-observer/-/react-intersection-observer-8.31.0.tgz#0ed21aaf93c4c0475b22b0ccaba6169076d01605"
@@ -3678,6 +3673,11 @@ react-refresh@0.8.3:
   version "0.8.3"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.8.3.tgz#721d4657672d400c5e3c75d063c4a85fb2d5d68f"
   integrity sha512-X8jZHc7nCMjaCqoU+V2I0cOhNW+QMBwSUkeXnTi8IPe6zaRWfn60ZzvFDZqWPfmSJfjub7dDW1SP0jaHWLu/hg==
+
+react-use-hotjar@^1.0.13:
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/react-use-hotjar/-/react-use-hotjar-1.0.13.tgz#0d5b955188a8421819f65a19f7d2df7907b926fa"
+  integrity sha512-PtTkT+tAKw02DOQaJu4c39EuaM7zr7wGIfcfwascGXFYTg9kExfIRc9hfFj8mFf4zr19+oCvuVk2+xi1JKci7Q==
 
 react@^16.13.0:
   version "16.14.0"
