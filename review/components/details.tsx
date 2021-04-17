@@ -132,7 +132,7 @@ const Details = ({ close, book }: any) => {
 							)}
 						</Col>
 						<Col width={55}>
-							<div>
+							<div style={{ width: "100%" }}>
 								<Heading level="h1" style={{ marginBottom: "10px", width: "90%" }}>
 									{book.title}
 								</Heading>
