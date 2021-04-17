@@ -433,7 +433,7 @@
 			"image_url": "/books/the-marshmellow-test-walter-mischel.jpeg",
 			"link": "https://www.goodreads.com/book/show/20454074-the-marshmallow-test?ac=1&from_search=true&qid=MhDTyfjaXG&rank=1",
 			"rating": "5",
-			"review": null
+			"review": "Listened on Audible. Some good advice in there regarding self control and being able to control your impulses. Quite a lot of scientific review and analysis of the work that was conducted. Bought this on sale on Audible, would have enjoyed it more if I'd have read it I think. Summary is early childhood sets you up, but you are not a prisoner of our genetics and we can change things via will power if we really want, we just have to actually want to."
 		},
 		{
 			"href": "palestine-israel-conflict-dan-cohn-sherbock-dawoud-el-alami",
@@ -443,6 +443,24 @@
 			"link": "https://www.goodreads.com/book/show/57547.The_Palestine_Israeli_Conflict",
 			"rating": "7",
 			"review": "Prior to reading this book my knowledge of the Israel-Palestine conflict was limited to Vox YouTube videos and the occasional documentary. The book covers the origin of the conflict, the birth of Zionism and how the British Empire (causing trouble again) had promised Palestine (land that wasn't theirs?) to mutliple people in order to gain support for various wars. The book is split into three parts, a Israeli perspective, a Palestinian perspective and a debate section at the end. Would have been interested in a longer debate section as it was only 30 pages long. Some insightful arguments were made and it would have been good to expand on these. Key takeaway is better understanding of the motives of both sides and inevitably sympathy for the victims as both sides have resorted to attacking the other on numerous occasions throughout the conflict."
+		},
+		{
+			"href": "cant-hurt-me-david-goggins",
+			"title": "Can't Hurt Me",
+			"author": "David Goggins",
+			"image_url": "/books/cant-hurt-me-david-goggins.jpeg",
+			"link": "https://www.goodreads.com/book/show/41721428-can-t-hurt-me",
+			"rating": "7",
+			"review": null
+		},
+		{
+			"href": "the-coming-of-the-third-reich-richard-j-evans",
+			"title": "The Coming of the Third Reich",
+			"author": "Richard J. Evans",
+			"image_url": "/books/the-coming-of-the-third-reich-richard-j-evans.jpeg",
+			"link": "https://www.goodreads.com/book/show/319473.The_Coming_of_the_Third_Reich",
+			"rating": "7",
+			"review": null
 		}
 	]
 }
