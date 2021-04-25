@@ -27,9 +27,9 @@ jobs:
           node-version: "14"
 
       # Runs a single command using the runners shell
-      - name: Run a one-line script
+      - name: Install npm
         run: npm install
 
       # Runs a set of commands using the runners shell
-      - name: run test
+      - name: Run Tests
         run: npm run test
