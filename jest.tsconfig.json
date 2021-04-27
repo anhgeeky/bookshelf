@@ -12,5 +12,5 @@
 		"typeRoots": ["node_modules/@types"]
 	},
 	"extends": "./tsconfig.json",
-	"exclude": ["node_modules", "out", ".next"]
+	"exclude": ["node_modules", "out", ".next", "*.json"]
 }

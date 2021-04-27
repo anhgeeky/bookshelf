@@ -7,6 +7,14 @@ module.exports = {
 		"!**/coverage/**",
 		"!jest.config.js"
 	],
+	globals: {
+		// we must specify a custom tsconfig for tests because we need the typescript transform
+		// to transform jsx into js rather than leaving it jsx such as the next build requires.  you
+		// can see this setting in tsconfig.jest.json -> "jsx": "react"
+		"ts-jest": {
+			tsConfig: "jest.tsconfig.json"
+		}
+	},
 	coverageThreshold: {
 		global: {
 			branches: 100,
@@ -18,17 +26,17 @@ module.exports = {
 	setupFiles: ["<rootDir>/enzyme.js"],
 	preset: "ts-jest",
 	testPathIgnorePatterns: ["/.next/", "/node_modules/", "/lib/", "/tests/", "/coverage/", "/.storybook/"],
-	testRegex: "(/__test__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+	testRegex: "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
 	testURL: "http://localhost",
-	testEnvironment: "jsdom",
-	moduleFileExtensions: ["ts", "tsx", "js", "json"],
+	testEnvironment: "node",
+	moduleFileExtensions: ["ts", "tsx", "js", "jsx"],
 	moduleNameMapper: {
 		"\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js",
 		"\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$":
 			"<rootDir>/__mocks__/fileMock.js"
 	},
 	transform: {
-		".(ts|tsx)": "babel-jest"
+		".(ts|tsx)$": "babel-jest"
 	},
 	transformIgnorePatterns: ["<rootDir>/node_modules/"]
 }

@@ -1,6 +1,6 @@
 import * as React from "react"
 import { shallow, render } from "enzyme"
-import Details from "./details"
+import Details from "../components/details"
 
 let defaultBook: any = {
 	href: "the-subtle-art-of-not-giving-a-fuck",
@@ -52,6 +52,12 @@ describe("Component", () => {
 				const wrapper = render(<Details book={defaultBook} />)
 
 				expect(findByTestAttr(wrapper, "book-review").length).toBe(1)
+			})
+
+			it("should NOT render if one doesn't exists", () => {
+				const wrapper = render(<Details book={defaultBookMissingReview} />)
+
+				expect(findByTestAttr(wrapper, "book-review").length).toBe(0)
 			})
 
 			it("should NOT render if one doesn't exists", () => {

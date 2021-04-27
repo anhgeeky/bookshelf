@@ -1,6 +1,6 @@
 import * as React from "react"
 import { shallow } from "enzyme"
-import Heading from "./heading"
+import Heading from "../components/heading"
 
 export const findByTestAttr = (wrapper: any, val: string) => {
 	return wrapper.find(`[data-test="${val}"]`)
@@ -8,7 +8,7 @@ export const findByTestAttr = (wrapper: any, val: string) => {
 
 describe("Shared", () => {
 	describe("Heading", () => {
-		it("hould render without throwing an error", () => {
+		it("should render without throwing an error", () => {
 			const wrapper = shallow(<Heading level="h1">Hello there</Heading>)
 
 			expect(wrapper.length).toBe(1)
