@@ -469,6 +469,15 @@
 			"image_url": "/books/the-koran-a-very-short-introduction.jpeg",
 			"link": "https://www.goodreads.com/book/show/56539.The_Koran",
 			"rating": "5",
+			"review": "Topics covered include an intro and a basic history, the dissemination and interpretation of it's contents and how these messages are recieved in the Muslim world. Interesting insight into a subject I don't know that much about and I will be reading more on the subject."
+		},
+		{
+			"href": "when-breath-becomes-air-paul-kalanithi",
+			"title": "When Breath Becomes Air",
+			"author": "Paul Kalanithi",
+			"image_url": "/books/when-breath-becomes-air-paul-kalanithi.jpeg",
+			"link": "https://www.goodreads.com/book/show/25899336-when-breath-becomes-air",
+			"rating": "7",
 			"review": null
 		}
 	]
