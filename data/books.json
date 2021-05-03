@@ -433,7 +433,7 @@
 			"image_url": "/books/the-marshmellow-test-walter-mischel.jpeg",
 			"link": "https://www.goodreads.com/book/show/20454074-the-marshmallow-test?ac=1&from_search=true&qid=MhDTyfjaXG&rank=1",
 			"rating": "5",
-			"review": "Listened on Audible. Some good advice in there regarding self control and being able to control your impulses. Quite a lot of scientific review and analysis of the work that was conducted. Bought this on sale on Audible, would have enjoyed it more if I'd have read it I think. Summary is early childhood sets you up, but you are not a prisoner of our genetics and we can change things via will power if we really want, we just have to actually want to."
+			"review": "Listened on Audible. Some good advice in there regarding self control and being able to control your impulses. Quite a lot of scientific review and analysis of the work that was conducted. Bought this on sale on Audible, would have enjoyed it more if I'd have read it I think. Summary is early childhood sets you up, but you are not a prisoner of your genetics and you can change things via will power if you really want, you just have to actually want to."
 		},
 		{
 			"href": "palestine-israel-conflict-dan-cohn-sherbock-dawoud-el-alami",
@@ -469,7 +469,7 @@
 			"image_url": "/books/the-koran-a-very-short-introduction.jpeg",
 			"link": "https://www.goodreads.com/book/show/56539.The_Koran",
 			"rating": "5",
-			"review": "Topics covered include an intro and a basic history, the dissemination and interpretation of it's contents and how these messages are recieved in the Muslim world. Interesting insight into a subject I don't know that much about and I will be reading more on the subject."
+			"review": "Topics covered include an intro and a basic history of the Quran, the dissemination and interpretation of it's contents and how these messages are recieved in the Muslim world. Interesting insight into a subject I don't know that much about and I will be reading more on the subject."
 		},
 		{
 			"href": "when-breath-becomes-air-paul-kalanithi",
@@ -477,6 +477,15 @@
 			"author": "Paul Kalanithi",
 			"image_url": "/books/when-breath-becomes-air-paul-kalanithi.jpeg",
 			"link": "https://www.goodreads.com/book/show/25899336-when-breath-becomes-air",
+			"rating": "8",
+			"review": "I'm not crying, you're crying. Death comes for all of us. 'For us, for our patients: it is our fate as living, breathing, metabolizing organisms.'. Being a doctor is tough. The hours they work, the constant stream of patients, having to support them through the highs and lows of their illnesses must be exhausting. The book is split into two halves and even though the book is short (200-ish) pages, I felt like the first half was an insightful peek behind the curtain on the journey to becoming a doctor. The first half contained two moments that stuck with me that were aside from Paul's story, the first being his first dissection of a cadaver. It brought anecdotes of a doctor's dark sense of humour etc to the front of my mind, and how the sense of humour does probably protect them from the more difficult aspects of their job. The other 'christ alive' moment, was when Paul discusses installing an electric diode implant for the patient with Parkinsons, and it was misplaced by 2mm to the left of the intended target, which resulted in the patient saying 'oh I feel very sad now, what's happened?' almost immediately. WHAT?! The human brain is that delicate? (well obviously, but it just shocked me). The second half is then Paul learning how to cope with his diagnosis and his own mortality which is done beautifully, how he could have written it whilst undergoing all his treatment is incredibly impressive. You know how the book ends but it still won't stop you from crying whilst reading the last 20 pages."
+		},
+		{
+			"href": "young-money-kevin-roose",
+			"title": "Young Money",
+			"author": "Kevin Roose",
+			"image_url": "/books/young-money-kevin-roose.jpeg",
+			"link": "https://www.goodreads.com/book/show/17899438-young-money",
 			"rating": "7",
 			"review": null
 		}
