@@ -113,7 +113,7 @@ const Details = ({ close, book }: any) => {
 
 	if (book) {
 		return (
-			<Layout>
+			<Layout data-test="details">
 				<ButtonEl onClick={close}>
 					<svg viewBox="0 0 365.71733 365" xmlns="http://www.w3.org/2000/svg">
 						<g fill="#16181a">
@@ -133,15 +133,15 @@ const Details = ({ close, book }: any) => {
 						</Col>
 						<Col width={55}>
 							<div style={{ width: "100%" }}>
-								<Heading level="h1" style={{ marginBottom: "10px", width: "90%" }}>
+								<Heading data-test="book-title" level="h1" style={{ marginBottom: "10px", width: "90%" }}>
 									{book.title}
 								</Heading>
-								<Heading level="h2" weight={400} style={{ marginBottom: "10px", width: "90%" }}>
+								<Heading data-test="book-author" level="h2" weight={400} style={{ marginBottom: "10px", width: "90%" }}>
 									{book.author}
 								</Heading>
 
 								{book.review && (
-									<div>
+									<div data-test="book-review">
 										<ReactStars edit={false} count={10} value={Number(book.rating)} size={18} activeColor="#ffd700" />
 										<Heading level="h3" levelClass="h3" style={{ margin: "10px 0" }}>
 											My quick take

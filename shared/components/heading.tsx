@@ -45,10 +45,14 @@ interface IHeading {
 
 const HeadingEl: React.FC<IHeading> = ({ level, levelClass, className, weight, style, children, ...props }) => {
 	return (
-		<StyledHeading weight={weight}>
+		<StyledHeading weight={weight} data-test="heading">
 			{createElement(
 				level,
-				{ className: `${levelClass ? levelClass : level} ${className ? ` ${className}` : ""}`, style: style, ...props },
+				{
+					className: `${levelClass ? levelClass : level} ${className ? ` ${className}` : ""}`,
+					style: style,
+					...props
+				},
 				children
 			)}
 		</StyledHeading>
