@@ -451,7 +451,7 @@
 			"image_url": "/books/cant-hurt-me-david-goggins.jpeg",
 			"link": "https://www.goodreads.com/book/show/41721428-can-t-hurt-me",
 			"rating": "7",
-			"review": null
+			"review": "David Goggins is nuts. Listened on Audible and it was kinda like a podcast between chapters as DG was chatting to his friend (the narrator) about the contents of each chapter so you got a summary at the end which was an interesting take on an audio book I haven't come across before. His childhood was tough, poor bloke. Although towards the end of the book I do get the feeling that everything is a battle. Like, EVERYTHING. The chapter about 'taking souls' and psyching out his BUDS instructors was pretty nuts, and he ran an Ultra Marathon with bone fractures in his legs. Not sure I have any valid excuses next time I don't wanna run. Incredibly motivational, has achieved so much but someone should tell him it's okay to have a day off even if it's not scheduled. But then again, he's done pretty well so far so what do I know?"
 		},
 		{
 			"href": "the-coming-of-the-third-reich-richard-j-evans",
@@ -488,6 +488,24 @@
 			"link": "https://www.goodreads.com/book/show/17899438-young-money",
 			"rating": "7",
 			"review": "After reading this book I can confirm a career in banking/finance is not for me. The author speaks to 8 junior members of staff at various banks on Wall Street and it sounds horrific. Yes, you have a very good starting salary and an insane bonus (which works out to $150,000 p.a) but you're working 100 hour weeks and being treated awfully by your superiors. One junior analyst in the book did the maths and figured out he was earning $15.00 an hour. That is an hourly rate Democrats in America are now saying the living standard in the U.S (2021). You get the status of working at a major bank on Wall Street (although is that as strong as it used to be?) but you lose your life for two years. Some quotes from high up CEO's r.e 2008 financial crash too which were awful (shock) but my main takeaway from this book is, if anyone wants to go work on Wall Street or The City, they should read this book."
+		},
+		{
+			"href": "the-ratline-philippe-sands",
+			"title": "The Ratline",
+			"author": "Philippe Sands",
+			"image_url": "/books/the-ratline-philippe-sands.jpeg",
+			"link": "https://www.goodreads.com/book/show/45692429-the-ratline",
+			"rating": "7",
+			"review": null
+		},
+		{
+			"href": "1984-george-orwell",
+			"title": "Nineteen Eighty-Four",
+			"author": "George Orwell",
+			"image_url": "/books/1984-george-orwell.jpeg",
+			"link": "https://www.goodreads.com/book/show/40961427-1984",
+			"rating": "7",
+			"review": null
 		}
 	]
 }
