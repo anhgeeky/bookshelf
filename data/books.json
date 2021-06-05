@@ -495,8 +495,8 @@
 			"author": "Philippe Sands",
 			"image_url": "/books/the-ratline-philippe-sands.jpeg",
 			"link": "https://www.goodreads.com/book/show/45692429-the-ratline",
-			"rating": "7",
-			"review": null
+			"rating": "8",
+			"review": "Well, that was a rollercoaster. The reveal at the end with Horst was a twist I didn't see coming, although it does raise the issue that Horst seemingly didn't care that his father was a war criminal, even when presented with evidence. The fact that more people don't know about The Ratlines and how some of the most prominent Nazi's escaped is beyond me. Also why isn't well known that the Vatican helped hide Nazi's after the war too? The author did a great job researching this book, how he and his team managed to bring the story of Otto and Charlotte (the husband and wife) back to life after 60 odd years is incredible. Charlotte's failure to condemn Otto and repent for her own villainous activities is awful. Until her last days she lied about Otto's involvement. She stole many precious pieces of art and other valuables whilst Otto was in charge of occupied Poland. The book shows that even though Charlotte and Otto are people, they're still horrible, awful human beings."
 		},
 		{
 			"href": "1984-george-orwell",
@@ -504,6 +504,15 @@
 			"author": "George Orwell",
 			"image_url": "/books/1984-george-orwell.jpeg",
 			"link": "https://www.goodreads.com/book/show/40961427-1984",
+			"rating": "7",
+			"review": "I finally got round to reading 1984. I'd heard the term 'Orwellian' for years, know that it was related to dystopian totalitarian states and now I can finally use it not feeling like a fraud. The term gets thrown around a lot now because of the time we live in, constantly connected via devices that listen to us, track our every movement and use that information to and sell us adverts. It's important to think for yourself."
+		},
+		{
+			"href": "team-of-rivals-doris-kearns-goodwin",
+			"title": "Team of Rivals",
+			"author": "Doris Kearns Goodwin",
+			"image_url": "/books/team-of-rivals-doris-kearns-goodwin.jpeg",
+			"link": "https://www.goodreads.com/book/show/2199.Team_of_Rivals",
 			"rating": "7",
 			"review": null
 		}
