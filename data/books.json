@@ -515,6 +515,15 @@
 			"link": "https://www.goodreads.com/book/show/2199.Team_of_Rivals",
 			"rating": "7",
 			"review": null
+		},
+		{
+			"href": "animal-farm-george-orwell",
+			"title": "Animal Farm",
+			"author": "George Orwell",
+			"image_url": "/books/animal-farm-george-orwell.jpeg",
+			"link": "https://www.goodreads.com/book/show/170448.Animal_Farm",
+			"rating": "7",
+			"review": null
 		}
 	]
 }
