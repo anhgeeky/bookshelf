@@ -522,8 +522,17 @@
 			"author": "George Orwell",
 			"image_url": "/books/animal-farm-george-orwell.jpeg",
 			"link": "https://www.goodreads.com/book/show/170448.Animal_Farm",
-			"rating": "7",
+			"rating": "5",
 			"review": "All animals are equal, but some animals are more equal than others. Good quick read, interesting points. Power corrupts. Is a commentary on the corruption of socialist ideals in The Soviet Union around the Russian Revolution. The book amplfies how naive the working class animals are. Corruption is everywhere. It's hard to hold on to revolutionary ideals for too long."
+		},
+		{
+			"href": "the-hitchhikers-guide-to-the-galaxy-douglas-adams",
+			"title": "The Hitchhiker's Guide to the Galaxy",
+			"author": "Douglas Adams",
+			"image_url": "/books/the-hitchhikers-guide-to-the-galaxy-douglas-adams.jpeg",
+			"link": "https://www.goodreads.com/book/show/386162.The_Hitchhiker_s_Guide_to_the_Galaxy",
+			"rating": "7",
+			"review": null
 		}
 	]
 }
