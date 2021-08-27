@@ -55,6 +55,8 @@ const BookEl = styled.div<IBookEl>`
 	}
 `
 
+const BookWrap = styled.div``
+
 interface IBook {
 	delay?: number
 	book: IBookRes
@@ -82,15 +84,17 @@ const Book: React.FC<IBook> = ({ book, delay, gridRef, noHover }) => {
 
 	return (
 		<Fade delay={delay ? delay : 700} triggerOnce cascade style={{ gridRowEnd: span }}>
-			<BookEl sizeFactor={book.sizeFactor} ref={newRef} onClick={openModal} noHover={noHover}>
-				<Image
-					objectFit="cover"
-					src={book.image_url}
-					alt={book.title}
-					width={14.8 * book.sizeFactor}
-					height={10 * book.sizeFactor}
-				/>
-			</BookEl>
+			<BookWrap>
+				<BookEl ref={newRef} sizeFactor={book.sizeFactor} onClick={openModal} noHover={noHover}>
+					<Image
+						objectFit="cover"
+						src={book.image_url}
+						alt={book.title}
+						width={14.8 * book.sizeFactor}
+						height={10 * book.sizeFactor}
+					/>
+				</BookEl>
+			</BookWrap>
 		</Fade>
 	)
 }
