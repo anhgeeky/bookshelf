@@ -149,11 +149,13 @@ const Details = ({ close, book }: any) => {
 										<p>{book.review}</p>
 									</div>
 								)}
-								<div style={{ paddingBottom: "10px" }}>
-									<Link href={book.link} target="blank">
-										Goodreads
-									</Link>
-								</div>
+								{book.link && (
+									<div style={{ paddingBottom: "10px" }}>
+										<Link href={book.link} target="blank">
+											Goodreads
+										</Link>
+									</div>
+								)}
 							</div>
 						</Col>
 					</Row>

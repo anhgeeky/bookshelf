@@ -576,8 +576,8 @@
 			"author": "Yuval Noah Harari",
 			"image_url": "/books/sapiens-yuval-noah-harari.jpeg",
 			"link": "https://www.goodreads.com/book/show/23692271-sapiens",
-			"rating": "5",
-			"review": null
+			"rating": "6",
+			"review": "Listened on Audible, interesting book giving an overview of the human species."
 		},
 		{
 			"href": "the-third-reich-in-power-richard-j-evans",
@@ -587,6 +587,96 @@
 			"link": "https://www.goodreads.com/book/show/536788.The_Third_Reich_in_Power",
 			"rating": "8",
 			"review": "Book two of a three part series, this one more haunting than the last. The methods in which the Nazi's manipulated, coerced and threatened the German public into being complacent whilst they were in power is unfathomable when thinking about how we live today. The middle of the books goes into the details of the Nazi's taking control of every aspect of the German people's lives, social clubs, youth clubs, womens clubs, to ensure everyone was adhereing to the new laws being imposed on the German public. Due to the Nazi's having control of the Reichstag, they could incremently implement laws that would take away the rights of Jewish people and then spin it as progress for the German people. Fucked up. The Eugenics, racist science, blood and soil brainwashing of the children in schools, Fucked up. The photos in the book that document all this, also fucked up."
+		},
+		{
+			"href": "broken-heartlands-sebastian-payne.jpeg",
+			"title": "Broken Heartlands",
+			"author": "Sebastian Payne",
+			"image_url": "/books/broken-heartlands-sebastian-payne.jpeg",
+			"link": "https://www.goodreads.com/book/show/58527112-broken-heartlands",
+			"rating": "9",
+			"review": "What a book, and my main take away from this is that Jeremy Corbyn was the main reason why Labour lost the elections in 2017 & 2019."
+		},
+		{
+			"href": "letters-from-a-stoic-seneca",
+			"title": "Letters from a Stoic",
+			"author": "Seneca",
+			"image_url": "/books/letters-from-a-stoic-seneca.jpeg",
+			"link": "",
+			"rating": "5",
+			"review": null
+		},
+		{
+			"href": "the-anarchist-handbook-michael-malice",
+			"title": "The Anarchist Handbook",
+			"author": "Michael Malice",
+			"image_url": "/books/the-anarchist-handbook-michael-malice.jpeg",
+			"link": "",
+			"rating": "5",
+			"review": null
+		},
+		{
+			"href": "empireland-sathnam-sanghera",
+			"title": "Empireland",
+			"author": "Sathnam Sanghera",
+			"image_url": "/books/empireland-sathnam-sanghera.jpeg",
+			"link": "",
+			"rating": "5",
+			"review": null
+		},
+		{
+			"href": "something-deeply-hidden-sean-carroll",
+			"title": "Something Deeply Hidden",
+			"author": "Sean Carroll",
+			"image_url": "/books/something-deeply-hidden-sean-carroll.jpeg",
+			"link": "",
+			"rating": "5",
+			"review": null
+		},
+		{
+			"href": "dinner-with-mugabe-heidi-holland",
+			"title": "Dinner With Mugabe",
+			"author": "Heidi Holland",
+			"image_url": "/books/dinner-with-mugabe-heidi-holland.jpeg",
+			"link": "",
+			"rating": "5",
+			"review": null
+		},
+		{
+			"href": "snow-country-yasunari-kawabatag",
+			"title": "Snow Country",
+			"author": "Yasunari Kawabata",
+			"image_url": "/books/snow-country-yasunari-kawabata.jpeg",
+			"link": "",
+			"rating": "5",
+			"review": null
+		},
+		{
+			"href": "how-to-have-impossible-conversations-james-lindsay",
+			"title": "How to have impossible conversations",
+			"author": "James Lindsay",
+			"image_url": "/books/how-to-have-impossible-conversations-james-lindsay.jpeg",
+			"link": "",
+			"rating": "5",
+			"review": null
+		},
+		{
+			"href": "motorcycle-diaries-che-guevara",
+			"title": "Motorcycle Diaries",
+			"author": "Che Guevara",
+			"image_url": "/books/motorcycle-diaries-che-guevara.jpeg",
+			"link": "",
+			"rating": "5",
+			"review": null
+		},
+		{
+			"href": "12-more-rules-for-life-jordan-peterson",
+			"title": "12 more rules for life",
+			"author": "Jordan Peterson",
+			"image_url": "/books/12-more-rules-for-life-jordan-peterson.jpeg",
+			"link": "",
+			"rating": "5",
+			"review": null
 		}
 	]
 }
