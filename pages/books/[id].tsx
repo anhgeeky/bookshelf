@@ -20,7 +20,7 @@ export default function Book({ id, book }: any) {
 				<meta name="description" content={`A quick book review of ${book.title}`} />
 			</Head>
 
-			<Details close={() => router.push("/")} id={router.query.id || id} book={book} />
+			<Details id={router.query.id || id} book={book} />
 		</>
 	)
 }
