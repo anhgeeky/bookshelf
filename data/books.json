@@ -665,9 +665,9 @@
 			"title": "Motorcycle Diaries",
 			"author": "Che Guevara",
 			"image_url": "/books/motorcycle-diaries-che-guevara.jpeg",
-			"link": "",
-			"rating": "5",
-			"review": null
+			"link": "https://www.goodreads.com/book/show/55224233-the-motorcycle-diaries",
+			"rating": "7",
+			"review": "A short & interesting read, Che travels through South America with his friend Alberto encountering real people and having small adventures along the way. He really does rely on the kindness of strangers as they offer him shelter and food throughout his journey, whilst he worked occasionally when the opportunity presented itself to trade work for food/money to buy food. Early exposure to the problems that would eventually form his ideas as a revolutionary. Wasn't a big fan of the American tourists at Machu Picchu, surprisingly..."
 		},
 		{
 			"href": "12-more-rules-for-life-jordan-peterson",
@@ -675,6 +675,15 @@
 			"author": "Jordan Peterson",
 			"image_url": "/books/12-more-rules-for-life-jordan-peterson.jpeg",
 			"link": "",
+			"rating": "5",
+			"review": null
+		},
+		{
+			"href": "lifespan-david-sinclair",
+			"title": "Lifespan",
+			"author": "David Sinclair",
+			"image_url": "/books/lifespan-david-sinclair.jpeg",
+			"link": "https://www.goodreads.com/en/book/show/43723901-lifespan",
 			"rating": "5",
 			"review": null
 		}
