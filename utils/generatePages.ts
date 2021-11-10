@@ -1,4 +1,4 @@
-import * as books from "../data/books.json"
+import books from "../data/books.json"
 
 let arr = books.books
 

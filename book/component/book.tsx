@@ -87,6 +87,7 @@ const Book: React.FC<IBook> = ({ book, delay, gridRef, noHover }) => {
 			<BookWrap>
 				<BookEl ref={newRef} sizeFactor={book.sizeFactor} onClick={openModal} noHover={noHover}>
 					<Image
+						loading="lazy"
 						objectFit="cover"
 						src={book.image_url}
 						alt={book.title}

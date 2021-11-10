@@ -12,87 +12,6 @@ import useWindowDimensions from "../../shared/hooks/useWindowDimensions"
 
 import { size } from "../../utils/sizes"
 
-const Layout = styled.div`
-	display: flex;
-	flex-direction: column;
-	height: 100%;
-	position: relative;
-`
-
-const Row = styled.div`
-	display: flex;
-	flex-direction: column;
-	width: 100%;
-	height: 100%;
-
-	@media (min-width: ${size.tablet}) {
-		flex-direction: row;
-	}
-`
-
-const StyledRowFade = styled(Fade)`
-	display: flex;
-	flex-direction: column;
-	width: 100%;
-	height: 100%;
-
-	@media (min-width: ${size.tablet}) {
-		flex-direction: row;
-	}
-`
-
-interface ICol {
-	width: number
-}
-
-const Col = styled.div<ICol>`
-	padding: 10px;
-	display: flex;
-	flex-direction: column;
-	height: 100%;
-	width: 100%;
-
-	@media (min-width: ${size.tablet}) {
-		flex-direction: row;
-		width: ${props => props.width}%;
-	}
-`
-
-const ButtonEl = styled.a`
-	border: 0;
-	outline: none;
-	display: inline-block;
-	background: transparent;
-	position: fixed;
-	margin: 0;
-	right: 30px;
-	top: 30px;
-	cursor: pointer;
-	width: 25px;
-	height: 25px;
-	z-index: 999;
-
-	svg {
-		height: 25px;
-		width: 25px;
-		position: absolute;
-		right: 0;
-		top: 0;
-	}
-
-	@media (min-width: ${size.tablet}) {
-		margin: 10px 10px 10px 10px;
-	}
-`
-
-const BookContainer = styled.div`
-	display: flex;
-	width: 100%;
-	height: 100%;
-	justify-content: center;
-	align-items: center;
-`
-
 const Details = ({ book }: any) => {
 	const [localBook, setLocalBook] = useState<any>(null)
 
@@ -146,9 +65,9 @@ const Details = ({ book }: any) => {
 								)}
 								{book.link && (
 									<div style={{ paddingBottom: "10px" }}>
-										<Link href={book.link} target="blank">
+										<ButtonLink href={book.link} target="_blank">
 											Goodreads
-										</Link>
+										</ButtonLink>
 									</div>
 								)}
 							</div>
@@ -163,3 +82,93 @@ const Details = ({ book }: any) => {
 }
 
 export default Details
+
+const Layout = styled.div`
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	position: relative;
+`
+
+const Row = styled.div`
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+
+	@media (min-width: ${size.tablet}) {
+		flex-direction: row;
+	}
+`
+
+const StyledRowFade = styled(Fade)`
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+
+	@media (min-width: ${size.tablet}) {
+		flex-direction: row;
+	}
+`
+
+interface ICol {
+	width: number
+}
+
+const Col = styled.div<ICol>`
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+
+	@media (min-width: ${size.tablet}) {
+		flex-direction: row;
+		width: ${props => props.width}%;
+	}
+`
+
+const ButtonLink = styled.a`
+	display: inline-flex;
+	background: black;
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+	margin-top: 10px;
+`
+
+const ButtonEl = styled.a`
+	border: 0;
+	outline: none;
+	display: inline-block;
+	background: transparent;
+	position: fixed;
+	margin: 0;
+	right: 30px;
+	top: 30px;
+	cursor: pointer;
+	width: 25px;
+	height: 25px;
+	z-index: 999;
+
+	svg {
+		height: 25px;
+		width: 25px;
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+
+	@media (min-width: ${size.tablet}) {
+		margin: 10px 10px 10px 10px;
+	}
+`
+
+const BookContainer = styled.div`
+	display: flex;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+`
