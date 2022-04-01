@@ -60,7 +60,7 @@ const Details = ({ book }: any) => {
 										<Heading level="h3" levelClass="h3" style={{ margin: "10px 0" }}>
 											My quick take
 										</Heading>
-										<p>{book.review}</p>
+										<p style={{ whiteSpace: "pre-line" }}>{book.review}</p>
 									</div>
 								)}
 								{book.link && (
